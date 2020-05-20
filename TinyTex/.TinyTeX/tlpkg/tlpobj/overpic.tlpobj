@@ -1,0 +1,24 @@
+name overpic
+category Package
+revision 53889
+shortdesc Combine LaTeX commands over included graphics
+longdesc The overpic environment is a cross between the LaTeX picture
+longdesc environment and the \includegraphics command of graphicx. The
+longdesc resulting picture environment has the same dimensions as the
+longdesc included graphic. LaTeX commands can be placed on the graphic
+longdesc at defined positions; a grid for orientation is available.
+containersize 1728
+containerchecksum f6946c04fb1bd17f8708698671c17037688198996cbfac9b358169d1cfbaed9835b1b05b7779f3b4545c3b7de1d0ccd5148757b3cf125983ab0cdb8d895c5e69
+doccontainersize 372204
+doccontainerchecksum 39a93d00bc5646095c1e104927655e61a6fc337ceca8c336cfd40c39a63c02b18a440ca4c9557537d3ddb991e0ba4aac9f9ea821c7cce3f447359fd9f0203dd3
+srccontainersize 4784
+srccontainerchecksum 9cc367d8b54a2c01d694602cfb8b0d0ff9e9d2117fd1e20a34ac80b9a1007f44b670eb17a55af7b073385ab4ec9511e76cca508ec108e22ec6f5891c0d32477e
+runfiles size=1
+ texmf-dist/tex/latex/overpic/overpic.sty
+catalogue-contact-bugs https://github.com/rolfn/overpic/issues
+catalogue-contact-home https://github.com/rolfn/overpic
+catalogue-contact-repository https://github.com/rolfn/overpic
+catalogue-ctan /macros/latex/contrib/overpic
+catalogue-license lppl1.3
+catalogue-topics graphics-text
+catalogue-version 1.3

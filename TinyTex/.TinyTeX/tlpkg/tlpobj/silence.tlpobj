@@ -1,0 +1,23 @@
+name silence
+category Package
+revision 27028
+shortdesc Selective filtering of error messages and warnings
+longdesc The package allows the user to filter out unwanted warnings and
+longdesc error messages issued by LaTeX, packages and classes, so they
+longdesc won't pop out when there's nothing one can do about them.
+longdesc Filtering goes from the very broad ("avoid all messages by such
+longdesc and such") to the fine-grained ("avoid messages that begin
+longdesc with..."). Messages may be saved to an external file for later
+longdesc reference.
+containersize 3620
+containerchecksum 95f4f095e0f70dcd11482be4f6d52c5ea7a06ad820c08386ad956b9bb9ad593410e59fe9bb5904c3242594d466c495e7793718d4cb707ed3edd1d17ac3c1c1a8
+doccontainersize 466940
+doccontainerchecksum 988df943eaf9337145d081de38ac22389bbffd3e94408b1cbb5de7605cccb47e2fa837813d4647c339d978b5b9b3e82e6d9859b840e89c09c95dd9572db0601b
+srccontainersize 17724
+srccontainerchecksum 7a628ca9efcc34863f064783a1e65e7bfee2a735a2457413d5b938e50b823fdfc6137f56041885e2c4910119ac756a5d6eecff91d9e99eb2bb85d2cd73f273b3
+runfiles size=5
+ texmf-dist/tex/latex/silence/silence.sty
+catalogue-ctan /macros/latex/contrib/silence
+catalogue-license lppl
+catalogue-topics compilation
+catalogue-version 1.5b

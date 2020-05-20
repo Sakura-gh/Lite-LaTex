@@ -1,0 +1,42 @@
+name pdftex
+category TLCore
+revision 54227
+shortdesc A TeX extension for direct creation of PDF
+longdesc An extension of TeX which can be configured to directly
+longdesc generate PDF documents instead of DVI. All current free TeX
+longdesc distributions including TeX Live, MacTeX and MiKTeX include
+longdesc pdfTeX (Plain TeX) and pdfLaTeX (LaTeX). ConTeXt was originally
+longdesc designed around use of pdfTeX, though nowadays it is focused on
+longdesc LuaTeX).
+depend cm
+depend dehyph
+depend etex
+depend hyph-utf8
+depend hyphen-base
+depend knuth-lib
+depend kpathsea
+depend pdftex.ARCH
+depend plain
+depend tex-ini-files
+execute AddFormat name=etex engine=pdftex patterns=language.def           options="-translate-file=cp227.tcx *etex.ini"           fmttriggers=cm,dehyph,etex,hyph-utf8,hyphen-base,knuth-lib,plain
+execute AddFormat name=pdfetex engine=pdftex patterns=language.def           options="-translate-file=cp227.tcx *pdfetex.ini"           fmttriggers=cm,dehyph,etex,hyph-utf8,hyphen-base,knuth-lib,plain,tex-ini-files
+execute AddFormat name=pdftex engine=pdftex patterns=language.def           options="-translate-file=cp227.tcx *pdfetex.ini"           fmttriggers=cm,dehyph,etex,hyph-utf8,hyphen-base,knuth-lib,plain,tex-ini-files
+execute addMap dummy-space.map
+containersize 36988
+containerchecksum 1846d2c75f53339dce486311b6034aff104dbc50e0e7d243a772f7c3e2bc9c0ff7cbd9229386ba0e136abd894b2ee42a51d26588fca7824a85e23fc60564aad0
+doccontainersize 1611504
+doccontainerchecksum 8526e7021037423c912dbe6e6430a30bc0a915dfc9f9a014885e71441696c0ebfad009a33dc21a4e83c28bb7a3a0aa78ac6579ebd21e518e5aba8a31867611c0
+runfiles size=65
+ texmf-dist/fonts/map/dvips/dummy-space/dummy-space.map
+ texmf-dist/fonts/tfm/public/pdftex/dummy-space.tfm
+ texmf-dist/fonts/type1/public/pdftex/dummy-space.pfb
+ texmf-dist/scripts/simpdftex/simpdftex
+ texmf-dist/tex/generic/config/pdftex-dvi.tex
+ texmf-dist/tex/generic/pdftex/glyphtounicode.tex
+ texmf-dist/tex/generic/pdftex/pdfcolor.tex
+catalogue-contact-bugs https://mailman.ntg.nl/mailman/listinfo/ntg-pdftex
+catalogue-contact-home http://www.pdftex.org
+catalogue-contact-repository https://tug.org/svn/pdftex/branches/stable
+catalogue-contact-support http://lists.tug.org/pdftex
+catalogue-license gpl
+catalogue-topics engine

@@ -1,0 +1,11 @@
+name ttfutils.x86_64-linux
+category TLCore
+revision 53999
+shortdesc x86_64-linux files of ttfutils
+containersize 424488
+containerchecksum e1b9a668c1ab4f5daa9dcfb01cad8150703ff9b7c12ece8d17388a4aca09d51bbfa8ac0065f6842ba6c6facaf5d10cf930064fe6fcb597804b1405235a08e4f1
+binfiles arch=x86_64-linux size=438
+ bin/x86_64-linux/ttf2afm
+ bin/x86_64-linux/ttf2pk
+ bin/x86_64-linux/ttf2tfm
+ bin/x86_64-linux/ttfdump

@@ -1,0 +1,340 @@
+%
+% lltjcore.sty: derived from plcore.dtx in pLaTeX.
+%
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{lltjcore}[2019/09/26 Patch to LaTeX2e Kernel for LuaTeX-ja]
+\RequirePackage{etoolbox}
+
+\def\cleardoublepage{\clearpage\if@twoside
+  \ifodd\c@page
+    \ifnum\ltjgetparameter{direction}=3
+      \hbox{}\thispagestyle{empty}\newpage
+      \if@twocolumn\hbox{}\newpage\fi
+    \fi
+  \else
+    \ifnum\ltjgetparameter{direction}=4
+      \hbox{}\thispagestyle{empty}\newpage
+      \if@twocolumn\hbox{}\newpage\fi
+    \fi
+  \fi\fi}
+\newif\iftombow \tombowfalse
+\newif\iftombowdate \tombowdatetrue
+\newdimen\@tombowwidth
+\setlength{\@tombowwidth}{.1\p@}
+\newbox\@TL\newbox\@Tl
+\newbox\@TC
+\newbox\@TR\newbox\@Tr
+\newbox\@BL\newbox\@Bl
+\newbox\@BC
+\newbox\@BR\newbox\@Br
+\newbox\@CL
+\newbox\@CR
+\font\@bannerfont=cmtt9
+\newtoks\@bannertoken
+\@bannertoken{}
+\def\maketombowbox{%
+  \setbox\@TL\hbox to\z@{\yoko\hss
+      \vrule width\dimexpr 10mm+\@tombowbleed\relax height\@tombowwidth depth\z@
+      \vrule height10mm width\@tombowwidth depth\z@
+      \iftombowdate
+        \raise4pt\hbox to\z@{\hskip5mm\@bannerfont\the\@bannertoken\hss}%
+      \fi}%
+  \setbox\@Tl\hbox to\z@{\yoko\hss
+      \vrule width10mm height\@tombowwidth depth\z@
+      \vrule height\dimexpr 10mm+\@tombowbleed\relax  width\@tombowwidth depth\z@}%
+  \setbox\@TC\hbox{\yoko
+      \vrule width10mm height\@tombowwidth depth\z@
+      \vrule height10mm width\@tombowwidth depth\z@
+      \vrule width10mm height\@tombowwidth depth\z@}%
+  \setbox\@TR\hbox to\z@{\yoko
+      \vrule height10mm width\@tombowwidth depth\z@
+      \vrule width\dimexpr 10mm+\@tombowbleed\relax height\@tombowwidth depth\z@\hss}%
+  \setbox\@Tr\hbox to\z@{\yoko
+      \vrule height\dimexpr 10mm+\@tombowbleed\relax width\@tombowwidth depth\z@
+      \vrule width10mm height\@tombowwidth depth\z@\hss}%
+  \setbox\@BL\hbox to\z@{\yoko\hss
+      \vrule width\dimexpr 10mm+\@tombowbleed\relax depth\@tombowwidth height\z@
+      \vrule depth10mm width\@tombowwidth height\z@}%
+  \setbox\@Bl\hbox to\z@{\yoko\hss
+      \vrule width10mm depth\@tombowwidth height\z@
+      \vrule depth\dimexpr 10mm+\@tombowbleed\relax width\@tombowwidth height\z@}%
+  \setbox\@BC\hbox{\yoko
+      \vrule width10mm depth\@tombowwidth height\z@
+      \vrule depth10mm width\@tombowwidth height\z@
+      \vrule width10mm depth\@tombowwidth height\z@}%
+  \setbox\@BR\hbox to\z@{\yoko
+      \vrule depth10mm width\@tombowwidth height\z@
+      \vrule width\dimexpr 10mm+\@tombowbleed\relax depth\@tombowwidth height\z@\hss}%
+  \setbox\@Br\hbox to\z@{\yoko
+      \vrule depth\dimexpr 10mm+\@tombowbleed\relax width\@tombowwidth height\z@
+      \vrule width10mm depth\@tombowwidth height\z@\hss}%
+  \setbox\@CL\hbox to\z@{\yoko\hss
+      \vrule width10mm height.5\@tombowwidth depth.5\@tombowwidth
+      \vrule height10mm depth10mm width\@tombowwidth}%
+  \setbox\@CR\hbox to\z@{\yoko
+      \vrule height10mm depth10mm width\@tombowwidth
+      \vrule height.5\@tombowwidth depth.5\@tombowwidth width10mm\hss}%
+}
+\def\@outputtombow{%
+  \iftombow
+  \vbox to\z@{\kern-\dimexpr 10mm+\@tombowbleed\relax
+    \boxmaxdepth\maxdimen
+      \moveleft\@tombowbleed\vbox to\@@paperheight{%
+	  \color@begingroup
+	  \@tombowcolor
+      \hbox to\@@paperwidth{\hskip\@tombowbleed\relax
+         \copy\@TL\hfill\copy\@TC\hfill\copy\@TR\hskip\@tombowbleed}%
+      \kern-10mm
+      \hbox to\@@paperwidth{\copy\@Tl\hfill\copy\@Tr}%
+      \vfill
+      \hbox to\@@paperwidth{\copy\@CL\hfill\copy\@CR}%
+      \vfill
+      \hbox to\@@paperwidth{\copy\@Bl\hfill\copy\@Br}%
+      \kern-10mm
+      \hbox to\@@paperwidth{\hskip\@tombowbleed\relax
+         \copy\@BL\hfill\copy\@BC\hfill\copy\@BR\hskip\@tombowbleed}%
+	\color@endgroup
+    }\vss
+  }%
+  \fi
+}
+\def\@tombowcolor{\normalcolor}
+\def\@tombowbleed{3mm}
+\def\@tombowreset@@paper{%
+     \@@topmargin\topmargin
+     \iftombow
+       \@@paperwidth\paperwidth
+	   \advance\@@paperwidth 2\dimexpr\@tombowbleed\relax
+       \@@paperheight\paperheight\advance\@@paperheight 10mm\relax
+	   \advance\@@paperheight 2\dimexpr\@tombowbleed\relax
+       \advance\@@topmargin 1in\relax \advance\@themargin 1in\relax
+     \fi
+}
+\newdimen\@@paperheight
+\newdimen\@@paperwidth
+\newdimen\@@topmargin
+\def\@outputpage{%
+\begingroup % the \endgroup is put in by \aftergroup
+  \ifnum\ltjgetparameter{direction}=4\else
+    \dimen\z@\textwidth \textwidth\textheight \textheight\dimen\z@
+  \fi
+  \let \protect \noexpand
+  \language\document@default@language %LaTeX2e 2017/05/01
+  \@resetactivechars
+  \global\let\@@if@newlist\if@newlist
+  \global\@newlistfalse
+  \@parboxrestore
+  \shipout\vbox{\yoko
+    \set@typeset@protect
+    \aftergroup\endgroup
+    \aftergroup\set@typeset@protect
+     \if@specialpage
+       \global\@specialpagefalse\@nameuse{ps@\@specialstyle}%
+     \fi
+     \if@twoside
+       \ifodd\count\z@ \let\@thehead\@oddhead \let\@thefoot\@oddfoot
+          \ifnum\ltjgetparameter{direction}=3 \let\@themargin\evensidemargin
+          \else\let\@themargin\oddsidemargin\fi
+       \else \let\@thehead\@evenhead
+          \let\@thefoot\@evenfoot
+           \ifnum\ltjgetparameter{direction}=3 \let\@themargin\oddsidemargin
+           \else\let\@themargin\evensidemargin\fi
+     \fi\fi
+     \@tombowreset@@paper
+     \reset@font
+     \normalsize
+     \normalsfcodes
+     \let\label\@gobble
+     \let\index\@gobble
+     \let\glossary\@gobble
+     \baselineskip\z@skip \lineskip\z@skip \lineskiplimit\z@
+    \@begindvi
+    \@outputtombow
+    \vskip \@@topmargin
+    \moveright\@themargin\vbox{%
+      \setbox\@tempboxa \vbox to\headheight{%
+        \vfil
+        \color@hbox
+          \normalcolor
+          \hb@xt@\textwidth{\@thehead}%
+        \color@endbox
+      }%                        %% 22 Feb 87
+      \dp\@tempboxa \z@
+      \box\@tempboxa
+      \vskip \headsep
+      \box\@outputbox
+      \baselineskip \footskip
+      \color@hbox
+        \normalcolor
+        \hb@xt@\textwidth{\@thefoot}%
+      \color@endbox
+    }%
+  }%
+  \global\let\if@newlist\@@if@newlist
+  \global \@colht \textheight
+  \stepcounter{page}%
+  \let\firstmark\botmark
+}
+
+%%% Remove extra xkanjiskip
+\renewcommand\@makefnmark{%
+  \unless\ifnum\ltjgetparameter{direction}=3
+    \hbox{}\hbox{\@textsuperscript{\normalfont\@thefnmark}}\hbox{}%
+  \else\hbox{\yoko \@textsuperscript{\normalfont\@thefnmark}}\fi}
+\begingroup
+\@ifpackageloaded{hyperref}
+  {\def\ltj@setrefprefix{real}}
+  {\def\ltj@setrefprefix{}}
+\expandafter\gdef\csname \ltj@setrefprefix @setref\endcsname#1#2#3{%
+  \ifx#1\relax
+    \protect\G@refundefinedtrue
+    \nfss@text{\reset@font\bfseries ??}%
+    \@latex@warning{Reference `#3' on page \thepage \space
+              undefined}%
+  \else
+    \expandafter#2#1\protect\@setref@{}% change \null to \protect\@setref@{}
+  \fi}
+\gdef\@setref@{\ifhmode\spacefactor\@m\fi}
+\endgroup
+\if@compatibility\else
+\def\verb{\relax\ifmmode\hbox\else\leavevmode\vadjust{}\fi
+  \bgroup
+    \verb@eol@error \let\do\@makeother \dospecials
+    \verbatim@font\@noligs
+    \language\l@nohyphenation
+    \@ifstar\@sverb\@verb}
+\fi
+\patchcmd{\do@noligs}{\kern\z@}{\vadjust{}}{}{} % reported by p_typo
+\gdef\@stopfield{%
+  \inhibitglue\@tempskipa\lastskip\unskip
+  \hskip\@tempskipa\color@endgroup\egroup}
+\pretocmd{\footnote}{\inhibitglue}{}{}
+\pretocmd{\footnotemark}{\inhibitglue}{}{}
+\patchcmd{\@footnotemark}{\@makefnmark}{%
+  \unless\ifnum\ltjgetparameter{direction}=3 \@makefnmark%
+  \else\hbox to\z@{\hskip-.25\zw\raise.9\zh\@makefnmark\hss}\fi%
+}{}{}
+\let\@parboxto\@empty
+\long\def\@iiiparbox#1#2[#3]#4#5{%
+  \leavevmode
+  \@pboxswfalse
+  \setlength\@tempdima{#4}%
+  \@begin@tempboxa\vbox{\hsize\@tempdima\@parboxrestore#5\@@par}%
+    \ifx\relax#2\else
+      \setlength\@tempdimb{#2}%
+      \edef\@parboxto{to\the\@tempdimb}%
+    \fi
+    \if#1b\vbox
+    \else\if #1t\vtop
+    \else\ifmmode\vcenter
+    \else\@pboxswtrue\null$\vcenter% !!!
+    \fi\fi\fi
+    \@parboxto{\let\hss\vss\let\unhbox\unvbox
+       \csname bm@#3\endcsname}%
+    \if@pboxsw \m@th$\null\fi% !!!
+  \@end@tempboxa}
+\DeclareRobustCommand\underline[1]{%
+  \relax
+  \ifmmode\@@underline{#1}%
+  \else \leavevmode\null$\@@underline{\hbox{#1}}\m@th$\null\relax\fi}
+
+%%% AtBeginDvi
+\DeclareRobustCommand \AtBeginDvi [1]{%
+  \global \setbox \@begindvibox
+    \vbox{\yoko\unvbox \@begindvibox #1}%
+}
+
+\newif\iffnfixbottom
+\newif\ifltj@ftn@unvboxed
+%%% @makecol
+\gdef \@makecol {%
+   \ifvoid\footins
+     \ltj@ftn@unvboxedfalse
+     \setbox\@outputbox \box\@cclv
+   \else
+     \ltj@ftn@unvboxedtrue
+     \setbox\@outputbox \vbox {%
+       \boxmaxdepth \@maxdepth
+       \unvbox \@cclv
+       \iffnfixbottom\vskip\z@ \@plus.0001fil\fi
+       \vskip \skip\footins
+       \color@begingroup
+         \normalcolor
+         \footnoterule
+         \unvbox \footins
+       \color@endgroup
+       }%
+   \fi
+   \let\@elt\relax
+   \xdef\@freelist{\@freelist\@midlist}%
+   \global \let \@midlist \@empty
+   \@combinefloats
+   \ifvbox\@kludgeins
+     \@makespecialcolbox
+   \else
+     \setbox\@outputbox \vbox to\@colht {%
+       \@texttop
+       \dimen@ \dp\@outputbox
+       \unvbox \@outputbox
+       \ifnum\ltjgetparameter{direction}=4\else\vbox{\hskip\z@}\fi %%% LuaTeX-ja
+       \vskip -\dimen@
+       \ifltj@ftn@unvboxed\iffnfixbottom\else\@textbottom\fi\else\@textbottom\fi
+       }%
+   \fi
+   \global \maxdepth \@maxdepth
+}
+\let\ltj@orig@makecol=\@makecol
+
+\patchcmd\@makespecialcolbox{\@textbottom}{\ifltj@ftn@unvboxed\iffnfixbottom\else\@textbottom\fi\else\@textbottom\fi}{}{}
+
+\def\@gnewline #1{%
+  \ifvmode
+    \@nolnerr
+  \else
+    \unskip \reserved@e {\reserved@f#1}\nobreak \hfil \break \null
+    % \null は \break の効果が行頭禁則文字で打ち消されないために必要
+  \ignorespaces
+\fi}
+
+
+%%%%%% tabular (platex/#43) \@tabclassz
+\def\ltj@sharp{\relax\pltx@next@inhibitglue\ltjfakeboxbdd\ignorespaces\@sharp\unskip\ltjfakeboxbdd}
+\def\@tabclassz{%
+  \ifcase\@lastchclass
+    \@acolampacol
+  \or
+    \@ampacol
+  \or
+  \or
+  \or
+    \@addamp
+  \or
+    \@acolampacol
+  \or
+    \@firstampfalse\@acol
+  \fi
+  \edef\@preamble{%
+    \@preamble{%
+      \ifcase\@chnum
+        \hfil\hskip1sp\ltj@sharp\hfil
+      \or
+        \hskip1sp\ltj@sharp\hfil
+      \or
+        \hfil\hskip1sp\ltj@sharp
+      \fi}}}
+\patchcmd\@classv{%
+   \ignorespaces\@sharp
+}{%
+   \everypar\expandafter{\the\everypar\ltjfakeboxbdd}\ignorespaces\@sharp\unskip
+}{}{}
+\patchcmd{\@tabular}{\leavevmode}{\leavevmode\null}{}{}
+\apptocmd{\endtabular}{\null}{}{}
+\expandafter \let \csname endtabular*\endcsname = \endtabular
+
+%%%%%% tabbing (platex/#53)
+\patchcmd\@startline{\strut}{\strut\inhibitglue}{}{}
+\def\ltj@unhbox@curfield{\ltjfakeboxbdd\unhbox\@curfield\ltjfakeboxbdd}
+%\patchcmd\@contfield{\unhbox\@curfield}{\ltj@unhbox@curfield}{}{}
+\patchcmd\@addfield{\unhbox\@curfield}{\ltj@unhbox@curfield}{}{}
+\endinput

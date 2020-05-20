@@ -1,0 +1,20 @@
+name uptex-base
+category Package
+revision 54043
+shortdesc Plain TeX formats and documents for upTeX
+longdesc The bundle contains plain TeX format files and documents for
+longdesc upTeX and and e-upTeX.
+containersize 9780
+containerchecksum 064544a964a3ab0fa12113846a61d748c174138c6a6865cff8025688b7e10a5d23f65b2df72cda01af311bd9253469e44440df9c31c1001295e3708801da4e3d
+doccontainersize 159080
+doccontainerchecksum 03d8c6859cc53396f5ccef5f8d07b191c91c400e1d848aef7dd318fb64cbdf50f46218b0ab1895e409af8e8e9d43f6991caaa92a0d1606754ee1d71923bb6368
+runfiles size=13
+ texmf-dist/tex/uptex/uptex-base/euptex.ini
+ texmf-dist/tex/uptex/uptex-base/euptex.src
+ texmf-dist/tex/uptex/uptex-base/ukinsoku.tex
+ texmf-dist/tex/uptex/uptex-base/uptex.ini
+ texmf-dist/tex/uptex/uptex-base/uptex.tex
+catalogue-contact-repository https://github.com/texjporg/uptex-base
+catalogue-ctan /language/japanese/uptex-base
+catalogue-license bsd3
+catalogue-topics format japanese

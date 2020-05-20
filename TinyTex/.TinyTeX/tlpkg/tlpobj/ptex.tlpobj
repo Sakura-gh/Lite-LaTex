@@ -1,0 +1,26 @@
+name ptex
+category Package
+revision 54276
+shortdesc A TeX system for publishing in Japanese
+longdesc pTeX adds features related to vertical writing, and deals with
+longdesc other problems in typesetting Japanese. A manual (in both
+longdesc Japanese and English) is distributed as package pTeX-manual.
+depend cm
+depend etex
+depend hyphen-base
+depend knuth-lib
+depend plain
+depend ptex-base
+depend ptex-fonts
+depend ptex.ARCH
+execute AddFormat name=eptex engine=eptex options="*eptex.ini"           patterns=language.def           fmttriggers=cm,hyphen-base,knuth-lib,plain,ptex-base,ptex-fonts,etex
+execute AddFormat name=ptex engine=ptex options="ptex.ini"           fmttriggers=cm,hyphen-base,knuth-lib,plain,ptex-base,ptex-fonts
+execute addKanjiMap ptex-@jaEmbed@@jaVariant@.map
+containersize 680
+containerchecksum e3c386e5b97131f04e46bbd63c1c4b6d00b49110c7fc0cf072e50f44447c05653858d8baf31f5fbd5f6b199313fe00df8b0718f80a920f2b2b0ece340a29afff
+doccontainersize 134428
+doccontainerchecksum a9799e334b820e86ed70d8290b67b6158cde4999c359b888ca0e62ae3997e20fc1cbceae176b16493ecd49aa3c64f3a22c99a5aa37b498cfa2806d3c66734949
+catalogue-contact-bugs https://github.com/texjporg/tex-jp-build/
+catalogue-contact-support https://ml.texjp.org/mailman/listinfo/issue
+catalogue-license bsd3
+catalogue-topics engine japanese

@@ -1,0 +1,36 @@
+name uptex
+category Package
+revision 54287
+shortdesc Unicode version of pTeX
+longdesc upTeX is an extension of pTeX, using UTF-8 input and producing
+longdesc UTF-8 output. It was originally designed to improve support for
+longdesc Japanese, but is also useful for documents in Chinese and
+longdesc Korean. It can process Chinese simplified, Chinese traditional,
+longdesc Japanese, and Korean simultaneously, and can also process
+longdesc original LaTeX with \inputenc{utf8} and Babel
+longdesc (Latin/Cyrillic/Greek etc.) by switching its \kcatcode tables.
+depend cm
+depend etex
+depend hyphen-base
+depend knuth-lib
+depend plain
+depend ptex-base
+depend uptex-base
+depend uptex-fonts
+depend uptex.ARCH
+execute AddFormat name=euptex engine=euptex options="*euptex.ini"           patterns=language.def           fmttriggers=cm,hyphen-base,knuth-lib,plain,uptex-base,uptex-fonts,etex,ptex-base
+execute AddFormat name=uptex engine=uptex options="uptex.ini"           fmttriggers=cm,hyphen-base,knuth-lib,plain,uptex-base,uptex-fonts
+execute addKanjiMap uptex-@jaEmbed@@jaVariant@.map
+execute addKanjiMap uptex-ko-@koEmbed@.map
+execute addKanjiMap uptex-sc-@scEmbed@.map
+execute addKanjiMap uptex-tc-@tcEmbed@.map
+containersize 904
+containerchecksum 12ad33c27ba8a2b84d812be60c784fbfaa07a76ed1e8174ef15492be816320df50f1e46a67fe71926de64d5a4810845f029bfed61819e594efc5f2ba55a655a7
+doccontainersize 298968
+doccontainerchecksum a041346c6dd094156f2a384b92fd013cd3894ff0de5bca21d6d9c3c18d5d2cfbbc2e7bb7d00f5f61f95400988231e59efcf080eb63b8b77781a1264bd197e76b
+catalogue-contact-bugs http://lists.tug.org/tex-k
+catalogue-contact-home http://www.t-lab.opal.ne.jp/tex/uptex_en.html
+catalogue-contact-repository https://tug.org/svn/texlive/trunk/Build/source/texk/web2c/uptexdir
+catalogue-contact-support http://lists.tug.org/tex-k
+catalogue-license other-free
+catalogue-topics engine japanese chinese korean multilingual

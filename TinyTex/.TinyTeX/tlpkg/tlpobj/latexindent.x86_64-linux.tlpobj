@@ -1,0 +1,8 @@
+name latexindent.x86_64-linux
+category Package
+revision 32150
+shortdesc x86_64-linux files of latexindent
+containersize 344
+containerchecksum 36a953e50a6c83edb3e7644a3fca247c7d50df862a55421153a5be62e1484de350f67033bb07bddba8f62698e7f70ce050533a6134bf62b24b7b767cf7646c8d
+binfiles arch=x86_64-linux size=1
+ bin/x86_64-linux/latexindent

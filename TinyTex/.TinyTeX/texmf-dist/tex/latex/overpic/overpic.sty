@@ -1,0 +1,112 @@
+%%
+%% This is file `overpic.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% overpic.dtx  (with options: `package')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright (C) 1997-... by Rolf Niepraschk <Rolf.Niepraschk@gmx.de>
+%% --------------------------------------------------------------------------
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%% 
+\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+\ProvidesPackage{overpic}[2020/02/22 1.3 picture overlays (RN)]
+\RequirePackage{graphicx,epic}
+\newcommand*\OVP@scale{\z@}
+\define@key{Gin}{rel}{%
+  \def\OVP@scale{#1}%
+  \ifnum\OVP@scale>\z@
+    \let\OVP@calc\OVP@calc@rel
+  \else
+    \PackageError{overpic}{Invalid number for option `rel'}\@ehc
+  \fi
+}
+\define@key{Gin}{percent}[]{%
+  \setkeys{Gin}{rel=100}%
+}
+\define@key{Gin}{permil}[]{%
+  \setkeys{Gin}{rel=\@m}%
+}
+\define@key{Gin}{abs}[]{%
+  \let\OVP@calc\OVP@calc@abs
+}
+\newif\ifGin@grid
+\define@key{Gin}{grid}[true]{\lowercase{\Gin@boolkey{#1}}{grid}}
+\define@key{Gin}{tics}{\count@=#1}
+\define@key{Gin}{unit}{\unitlength=\dimexpr#1\relax}
+\newcommand*\OVP@calc@abs{%
+  \divide\@tempcnta by \unitlength
+  \divide\@tempcntb by \unitlength
+  \ifnum\count@=\z@\count@=10\fi
+}
+\newcommand*\OVP@calc@rel{%
+  \ifnum\@tempcnta>\@tempcntb
+    \divide\@tempcnta by \OVP@scale
+    \unitlength=\@tempcnta sp %
+    \@tempcnta=\OVP@scale
+    \divide\@tempcntb by \unitlength
+  \else
+    \divide\@tempcntb by \OVP@scale
+    \unitlength=\@tempcntb sp %
+    \@tempcntb=\OVP@scale
+    \divide\@tempcnta by \unitlength
+  \fi
+  \ifnum\count@=\z@
+    \count@=\OVP@scale
+    \divide\count@ by 10 %
+  \fi
+}
+\DeclareOption{percent}{\setkeys{Gin}{rel=100}}
+\DeclareOption{permil}{\setkeys{Gin}{rel=\@m}}
+\DeclareOption{abs}{\setkeys{Gin}{abs}}
+\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{graphicx}}
+\ExecuteOptions{percent}
+\ProcessOptions
+\newsavebox\OVP@box
+\newenvironment{overpic}[2][]{%
+  \sbox\OVP@box{\includegraphics[#1]{#2}}%
+  \count@=\z@ \Gin@gridfalse
+  \setkeys{Gin}{#1}%
+  \let\Gin@outer@scalex\relax
+  \let\Gin@outer@scaley\relax
+  \let\Gin@angle\relax
+  \let\Gin@ewidth\Gin@exclamation
+  \let\Gin@eheight\Gin@exclamation
+  \def\Gin@scalex{1}%
+  \let\Gin@scaley\Gin@exclamation
+  \OVP@picture{#1}%
+}{\endpicture}
+\newenvironment{Overpic}[2][]{%
+  \sbox\OVP@box{#2}%
+  \count@=\z@ \Gin@gridfalse
+  \setkeys{Gin}{#1}%
+  \OVP@picture{#1}%
+}{\endpicture}
+\newcommand*\OVP@picture[1]{%
+  \settodepth{\@tempcnta}{\usebox\OVP@box}%
+  \settoheight{\@tempcntb}{\usebox\OVP@box}%
+  \advance\@tempcntb\@tempcnta
+  \settowidth{\@tempcnta}{\usebox\OVP@box}%
+  \OVP@calc
+  \picture(\@tempcnta,\@tempcntb)%
+    \put(0,0){\makebox(0,0)[bl]{\usebox\OVP@box}}%
+    \ifGin@grid
+      \put(0,0){\normalfont\fontsize\@viipt\@viiipt\selectfont
+        \grid(\@tempcnta,\@tempcntb)(\count@,\count@)[0,0]}%
+    \fi
+}
+\newcommand*\setOverpic[1]{%
+  \setkeys{Gin}{#1}%
+}
+\endinput
+%%
+%% End of file `overpic.sty'.

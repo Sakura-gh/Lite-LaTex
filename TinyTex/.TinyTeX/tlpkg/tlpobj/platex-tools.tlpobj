@@ -1,0 +1,26 @@
+name platex-tools
+category Package
+revision 52049
+shortdesc pLaTeX standard tools bundle
+longdesc This bundle is an extended version of the latex-tools bundle
+longdesc developed by the LaTeX team, mainly intended to support
+longdesc pLaTeX2e and upLaTeX2e. Currently patches for the latex-tools
+longdesc bundle and Martin Schroder's ms bundle are included.
+containersize 7268
+containerchecksum bd1b61377f9793cce68a18c43c43316aed3f6382d031e7948e5ab6726b9be18d5b819ab3fb4800dd9fd1932af433352c7285eb9498925f54b66e0f87b0d293f1
+doccontainersize 542784
+doccontainerchecksum a58c732af05538e8450b9a329754d576cd0c606a676d2451212d928d39e841bcf702cb5e096405c455f98cf012bf4f75d39295d7ac5efc1c6d3647a16345434b
+runfiles size=10
+ texmf-dist/tex/latex/platex-tools/plarray.sty
+ texmf-dist/tex/latex/platex-tools/plextarray.sty
+ texmf-dist/tex/latex/platex-tools/plextdelarray.sty
+ texmf-dist/tex/latex/platex-tools/pxatbegshi.sty
+ texmf-dist/tex/latex/platex-tools/pxeverysel.sty
+ texmf-dist/tex/latex/platex-tools/pxeveryshi.sty
+ texmf-dist/tex/latex/platex-tools/pxftnright.sty
+ texmf-dist/tex/latex/platex-tools/pxmulticol.sty
+ texmf-dist/tex/latex/platex-tools/pxxspace.sty
+catalogue-contact-repository https://github.com/aminophen/platex-tools
+catalogue-ctan /language/japanese/platex-tools
+catalogue-license bsd3
+catalogue-topics japanese collection

@@ -1,0 +1,32 @@
+INFO: latexindent.pl version 3.8.1, 2020-05-05, a script to indent .tex files
+      latexindent.pl lives here: /home/gehao/.TinyTeX/texmf-dist/scripts/latexindent/
+      Tue May 19 23:44:13 2020
+      Reading input from STDIN
+INFO: Processing switches:
+INFO: Directory for backup files and indent.log: .
+INFO: Perl modules are being loaded from the following directories:
+      /usr/share/perl/5.22/FindBin.pm
+      /usr/local/share/perl/5.22.1/YAML/Tiny.pm
+      /usr/share/perl/5.22/File/Copy.pm
+      /usr/share/perl/5.22/File/Basename.pm
+      /usr/share/perl/5.22/Getopt/Long.pm
+      /usr/local/share/perl/5.22.1/File/HomeDir.pm
+      /usr/local/lib/x86_64-linux-gnu/perl/5.22.1/Unicode/GCString.pm
+      /usr/local/share/perl/5.22.1/Log/Log4perl.pm
+INFO: Latex Indent perl modules are being loaded from, for example:
+      /home/gehao/.TinyTeX/texmf-dist/scripts/latexindent/LatexIndent/Document.pm
+INFO: YAML settings read: defaultSettings.yaml
+      Reading defaultSettings.yaml from /home/gehao/.TinyTeX/texmf-dist/scripts/latexindent/defaultSettings.yaml
+INFO: YAML settings read: indentconfig.yaml or .indentconfig.yaml
+      Home directory is /home/gehao (didn't find either indentconfig.yaml or .indentconfig.yaml)
+      To specify user settings you would put indentconfig.yaml here: /home/gehao/indentconfig.yaml
+      Alternatively, you can use the hidden file .indentconfig.yaml as: /home/gehao/.indentconfig.yaml
+INFO: Phase 1: searching for objects
+INFO: Phase 2: finding surrounding indentation
+INFO: Phase 3: indenting objects
+INFO: Phase 4: final indentation check
+INFO: Output routine:
+      Not outputting to file; see -w and -o switches for more options.
+      --------------
+INFO: Please direct all communication/issues to:
+      https://github.com/cmhughes/latexindent.pl

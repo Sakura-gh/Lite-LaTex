@@ -1,0 +1,21 @@
+name svn-prov
+category Package
+revision 18017
+shortdesc Subversion variants of \Provides... macros
+longdesc The package introduces Subversion variants of the standard
+longdesc LaTeX macros \ProvidesPackage, \ProvidesClass and \ProvidesFile
+longdesc where the file name and date is extracted from Subversion Id
+longdesc keywords. The file name may also be given explicitly as an
+longdesc optional argument.
+containersize 2376
+containerchecksum 24325a3de52afb9328a4b608710b94839c77ac65b13f08219f4efa24680ceabc410135de3c468c89d5d283a8986f2a9e337ef2285241ce776d0270622e0e77d9
+doccontainersize 242148
+doccontainerchecksum b6de41de4535833025f2899ae28530f4198717bfdcf06b090d054c20bced3a524ae9627b1909eb7afc6ff4e09d5525203b869c09d23facbb86e207ab2193b57a
+srccontainersize 10000
+srccontainerchecksum c7586e4592f9518d2a03218c9afe614422bc8021a192279d7be1b090bd09bc51191d8c0a2e760514206c53cecf5a7b89c617a4c209cdb878874a0e3396659a3c
+runfiles size=2
+ texmf-dist/tex/latex/svn-prov/svn-prov.sty
+catalogue-ctan /macros/latex/contrib/svn-prov
+catalogue-license lppl
+catalogue-topics version-control doc-mgmt
+catalogue-version 3.1862

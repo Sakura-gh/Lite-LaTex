@@ -1,0 +1,21 @@
+name ptex-base
+category Package
+revision 54153
+shortdesc Plain TeX format for pTeX and e-pTeX
+longdesc The bundle contains the plain TeX format for pTeX and e-pTeX.
+containersize 10040
+containerchecksum b3d84777049fd8f0d41de11efff6253d9fed87563796e440104c2b400356789bcccfeabd1a611328d567400bfa195a3416e32620b101ecbeb7b578f311660065
+doccontainersize 1536
+doccontainerchecksum b01a493c1afe3da63751a4ef42c593dc12c8ffce1e1c93d0d4865ce52911a5658d624d19eb026dce3ade6016611291400706c5723219b90bca93ace70bd4978e
+runfiles size=14
+ texmf-dist/tex/ptex/ptex-base/ascii-jplain.tex
+ texmf-dist/tex/ptex/ptex-base/eptex.ini
+ texmf-dist/tex/ptex/ptex-base/eptex.src
+ texmf-dist/tex/ptex/ptex-base/eptexdefs.lib
+ texmf-dist/tex/ptex/ptex-base/kinsoku.tex
+ texmf-dist/tex/ptex/ptex-base/ptex.ini
+ texmf-dist/tex/ptex/ptex-base/ptex.tex
+catalogue-contact-repository https://github.com/texjporg/ptex-base
+catalogue-ctan /language/japanese/ptex-base
+catalogue-license bsd3
+catalogue-topics format japanese

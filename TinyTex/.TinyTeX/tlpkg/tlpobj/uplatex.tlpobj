@@ -1,0 +1,64 @@
+name uplatex
+category Package
+revision 54276
+shortdesc pLaTeX2e and miscellaneous macros for upTeX
+longdesc The bundle provides pLaTeX2e macros for upTeX by Takuji Tanaka.
+longdesc This is a community edition syncing with platex. The bundle
+longdesc depends on platex.
+depend babel
+depend cm
+depend hyph-utf8
+depend hyphen-base
+depend l3backend
+depend l3kernel
+depend l3packages
+depend latex
+depend latex-base-dev
+depend latex-fonts
+depend platex
+depend tex-ini-files
+depend unicode-data
+depend uplatex.ARCH
+depend uptex
+depend uptex-fonts
+execute AddFormat name=uplatex engine=euptex options="*uplatex.ini"           patterns=language.dat           fmttriggers=babel,cm,hyph-utf8,hyphen-base,latex-fonts,l3backend,l3kernel,l3packages,tex-ini-files,unicode-data,uptex-fonts,platex,latex
+execute AddFormat name=uplatex-dev engine=euptex options="*uplatex.ini"           patterns=language.dat           fmttriggers=babel,cm,hyph-utf8,hyphen-base,latex-fonts,l3backend,l3kernel,l3packages,tex-ini-files,unicode-data,uptex-fonts,platex,l3kernel,latex-base-dev
+containersize 14704
+containerchecksum 8710b130f851f3d4ea40cf8e129b759ab39bb051bdc63a106ca0d26c50eb56f2f7041d305384571316e135a1b0c12eec5d2f83281dde837550ae32a99c6421fc
+doccontainersize 878008
+doccontainerchecksum 69908780223c7cc5039de16a90dd06c458e6e5ab1515fdb757e4536f2a95c0b24d30e2e284cdcbadb1d61a47b2f18e8020a736ef21a08a7d158d3ab25a3e1742
+srccontainersize 50204
+srccontainerchecksum 79efe4ad4522c44c1836ba43095eac76cb0d3f2b37a4933e38c308282b6c8c9ea733913097500e3a544c5fdfef82671ea34adc94be9248d8faf937ef55c98634
+runfiles size=94
+ texmf-dist/tex/uplatex/base/jt2gt.fd
+ texmf-dist/tex/uplatex/base/jt2mc.fd
+ texmf-dist/tex/uplatex/base/jy2gt.fd
+ texmf-dist/tex/uplatex/base/jy2mc.fd
+ texmf-dist/tex/uplatex/base/ujarticle.cls
+ texmf-dist/tex/uplatex/base/ujbk10.clo
+ texmf-dist/tex/uplatex/base/ujbk11.clo
+ texmf-dist/tex/uplatex/base/ujbk12.clo
+ texmf-dist/tex/uplatex/base/ujbook.cls
+ texmf-dist/tex/uplatex/base/ujreport.cls
+ texmf-dist/tex/uplatex/base/ujsize10.clo
+ texmf-dist/tex/uplatex/base/ujsize11.clo
+ texmf-dist/tex/uplatex/base/ujsize12.clo
+ texmf-dist/tex/uplatex/base/ukinsoku.tex
+ texmf-dist/tex/uplatex/base/uplatex.ltx
+ texmf-dist/tex/uplatex/base/uplcore.ltx
+ texmf-dist/tex/uplatex/base/upldefs.ltx
+ texmf-dist/tex/uplatex/base/uptrace.sty
+ texmf-dist/tex/uplatex/base/utarticle.cls
+ texmf-dist/tex/uplatex/base/utbk10.clo
+ texmf-dist/tex/uplatex/base/utbk11.clo
+ texmf-dist/tex/uplatex/base/utbk12.clo
+ texmf-dist/tex/uplatex/base/utbook.cls
+ texmf-dist/tex/uplatex/base/utreport.cls
+ texmf-dist/tex/uplatex/base/utsize10.clo
+ texmf-dist/tex/uplatex/base/utsize11.clo
+ texmf-dist/tex/uplatex/base/utsize12.clo
+ texmf-dist/tex/uplatex/config/uplatex.ini
+catalogue-contact-repository https://github.com/texjporg/uplatex
+catalogue-ctan /language/japanese/uplatex
+catalogue-license bsd3
+catalogue-topics format class japanese

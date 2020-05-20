@@ -1,0 +1,3052 @@
+[Sun May 17 18:26:00 2020] install: babel
+[Sun May 17 18:26:01 2020] install: cm
+[Sun May 17 18:26:01 2020] install: dehyph
+[Sun May 17 18:26:02 2020] install: dvipdfmx.x86_64-linux
+[Sun May 17 18:26:02 2020] install: dvipdfmx
+[Sun May 17 18:26:02 2020] install: etex
+[Sun May 17 18:26:02 2020] install: glyphlist
+[Sun May 17 18:26:02 2020] install: graphics
+[Sun May 17 18:26:02 2020] install: graphics-cfg
+[Sun May 17 18:26:02 2020] install: graphics-def
+[Sun May 17 18:26:03 2020] install: hyph-utf8
+[Sun May 17 18:26:03 2020] install: knuth-lib
+[Sun May 17 18:26:03 2020] install: l3backend
+[Sun May 17 18:26:03 2020] install: l3kernel
+[Sun May 17 18:26:03 2020] install: l3packages
+[Sun May 17 18:26:04 2020] install: latex
+[Sun May 17 18:26:04 2020] install: latex-bin.x86_64-linux
+[Sun May 17 18:26:04 2020] install: latex-bin
+[Sun May 17 18:26:04 2020] install: latex-fonts
+[Sun May 17 18:26:04 2020] install: latexconfig
+[Sun May 17 18:26:15 2020] install: lm
+[Sun May 17 18:26:18 2020] install: luahbtex.x86_64-linux
+[Sun May 17 18:26:18 2020] install: luahbtex
+[Sun May 17 18:26:19 2020] install: lualibs
+[Sun May 17 18:26:19 2020] install: luaotfload.x86_64-linux
+[Sun May 17 18:26:20 2020] install: luaotfload
+[Sun May 17 18:26:21 2020] install: luatex.x86_64-linux
+[Sun May 17 18:26:21 2020] install: luatex
+[Sun May 17 18:26:22 2020] install: pdftex.x86_64-linux
+[Sun May 17 18:26:23 2020] install: pdftex
+[Sun May 17 18:26:23 2020] install: plain
+[Sun May 17 18:26:23 2020] install: tex-ini-files
+[Sun May 17 18:26:23 2020] install: unicode-data
+[Sun May 17 18:26:30 2020] install: xetex.x86_64-linux
+[Sun May 17 18:26:30 2020] install: xetex
+[Sun May 17 18:26:30 2020] install: xetexconfig
+[Sun May 17 18:26:30 2020] running mktexlsr
+[Sun May 17 18:26:30 2020] success, output:
+(cmd)
+--end of output of mktexlsr.
+
+[Sun May 17 18:26:30 2020] running updmap-sys
+[Sun May 17 18:26:30 2020] success, output:
+(cmd)updmap will read the following updmap.cfg files (in precedence order):
+(cmd)  /tmp/texlive/texmf-dist/web2c/updmap.cfg
+(cmd)updmap may write changes to the following updmap.cfg file:
+(cmd)  /tmp/texlive/texmf-config/web2c/updmap.cfg
+(cmd)dvips output dir: "/tmp/texlive/texmf-var/fonts/map/dvips/updmap"
+(cmd)pdftex output dir: "/tmp/texlive/texmf-var/fonts/map/pdftex/updmap"
+(cmd)dvipdfmx output dir: "/tmp/texlive/texmf-var/fonts/map/dvipdfmx/updmap"
+(cmd)
+(cmd)updmap is creating new map files
+(cmd)using the following configuration:
+(cmd)  LW35 font names                  : URWkb (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  prefer outlines                  : true (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  texhash enabled                  : true
+(cmd)  download standard fonts (dvips)  : true (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  download standard fonts (pdftex) : true (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaEmbed replacement string       : haranoaji (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaVariant replacement string     : -04 (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  scEmbed replacement string       : arphic (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  tcEmbed replacement string       : arphic (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  koEmbed replacement string       : baekmuk (/tmp/texlive/texmf-dist/web2c/updmap.cfg)
+(cmd)  create a mapfile for pxdvi       : false (default)
+(cmd)
+(cmd)Scanning for LW35 support files  [  3 files]
+(cmd)Scanning for MixedMap entries    [  1 files]
+(cmd)Scanning for KanjiMap entries    [  0 files]
+(cmd)Scanning for Map entries         [  3 files]
+(cmd)
+(cmd)Generating output for dvipdfmx...
+(cmd)Generating output for ps2pk...
+(cmd)Generating output for dvips...
+(cmd)Generating output for pdftex...
+(cmd)
+(cmd)Files generated:
+(cmd)  /tmp/texlive/texmf-var/fonts/map/dvips/updmap:
+(cmd)       15774 2020-05-17 18:26:30 builtin35.map
+(cmd)       21247 2020-05-17 18:26:30 download35.map
+(cmd)       69598 2020-05-17 18:26:30 psfonts_pk.map
+(cmd)       69802 2020-05-17 18:26:30 psfonts_t1.map
+(cmd)       69797 2020-05-17 18:26:30 ps2pk.map
+(cmd)          14 2020-05-17 18:26:30 psfonts.map -> psfonts_t1.map
+(cmd)  /tmp/texlive/texmf-var/fonts/map/pdftex/updmap:
+(cmd)       69804 2020-05-17 18:26:30 pdftex_dl14.map
+(cmd)       68139 2020-05-17 18:26:30 pdftex_ndl14.map
+(cmd)          15 2020-05-17 18:26:30 pdftex.map -> pdftex_dl14.map
+(cmd)  /tmp/texlive/texmf-var/fonts/map/dvipdfmx/updmap:
+(cmd)         297 2020-05-17 18:26:30 kanjix.map
+(cmd)
+(cmd)Transcript written on "/tmp/texlive/texmf-var/web2c/updmap.log".
+(cmd)updmap: Updating ls-R files.
+--end of output of updmap-sys.
+
+[Sun May 17 18:26:31 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine pdftex
+[Sun May 17 18:26:31 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /tmp/texlive/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /tmp/texlive/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /tmp/texlive/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking pdftex with pdftex
+(cmd)fmtutil: running `pdftex -ini   -jobname=pdftex -progname=pdftex -translate-file=cp227.tcx *pdfetex.ini' ...
+(cmd)This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd) (/tmp/texlive/texmf-dist/web2c/cp227.tcx)
+(cmd)entering extended mode
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/config/pdfetex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etex.src
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/tmp/texlive/texmf-var/tex/generic/config/language.def
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+(cmd)register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+(cmd)\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/config/pdftexmagfix.tex) )
+(cmd)Beginning to dump on file pdftex.fmt
+(cmd) (preloaded format=pdftex 2020.5.17)
+(cmd)2906 strings of total length 43158
+(cmd)7960 memory locations dumped; current usage is 203&7321
+(cmd)1266 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)14787 words of font info for 50 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6075 has 181 ops out of 35111
+(cmd)  181 for language 0
+(cmd)0 words of pdfTeX memory
+(cmd)0 indirect objects
+(cmd)No pages of output.
+(cmd)Transcript written on pdftex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/pdftex/pdftex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/pdftex/pdftex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking pdflatex with pdftex
+(cmd)fmtutil: running `pdftex -ini   -jobname=pdflatex -progname=pdflatex -translate-file=cp227.tcx *pdflatex.ini' ...
+(cmd)This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd) (/tmp/texlive/texmf-dist/web2c/cp227.tcx)
+(cmd)entering extended mode
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/latexconfig/pdflatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/latex.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-02-02> patch level 5
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omsenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmss.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlcmm.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omscmsy.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omxcmex.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+(cmd)environments, center, verbatim, math definitions, boxes, title, sectioning,
+(cmd)contents, floats, footnotes, index, bibliography, output,
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/utf8.def
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1enc.dfu))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ltexpl.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/l3deprecation.def))))
+(cmd) ) )
+(cmd)Beginning to dump on file pdflatex.fmt
+(cmd) (preloaded format=pdflatex 2020.5.17)
+(cmd)17576 strings of total length 301390
+(cmd)233316 memory locations dumped; current usage is 165&226350
+(cmd)15881 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)532331 words of font info for 24 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6081 has 183 ops out of 35111
+(cmd)  2 for language 1
+(cmd)  181 for language 0
+(cmd)0 words of pdfTeX memory
+(cmd)0 indirect objects
+(cmd)No pages of output.
+(cmd)Transcript written on pdflatex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/pdftex/pdflatex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/pdftex/pdflatex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking pdfetex with pdftex
+(cmd)fmtutil: running `pdftex -ini   -jobname=pdfetex -progname=pdfetex -translate-file=cp227.tcx *pdfetex.ini' ...
+(cmd)This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd) (/tmp/texlive/texmf-dist/web2c/cp227.tcx)
+(cmd)entering extended mode
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/config/pdfetex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etex.src
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/tmp/texlive/texmf-var/tex/generic/config/language.def
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+(cmd)register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+(cmd)\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/config/pdftexmagfix.tex) )
+(cmd)Beginning to dump on file pdfetex.fmt
+(cmd) (preloaded format=pdfetex 2020.5.17)
+(cmd)2906 strings of total length 43161
+(cmd)7960 memory locations dumped; current usage is 203&7321
+(cmd)1266 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)14787 words of font info for 50 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6075 has 181 ops out of 35111
+(cmd)  181 for language 0
+(cmd)0 words of pdfTeX memory
+(cmd)0 indirect objects
+(cmd)No pages of output.
+(cmd)Transcript written on pdfetex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/pdftex/pdfetex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/pdftex/pdfetex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking etex with pdftex
+(cmd)fmtutil: running `pdftex -ini   -jobname=etex -progname=etex -translate-file=cp227.tcx *etex.ini' ...
+(cmd)This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd) (/tmp/texlive/texmf-dist/web2c/cp227.tcx)
+(cmd)entering extended mode
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/config/etex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etex.src
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/tmp/texlive/texmf-var/tex/generic/config/language.def
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+(cmd)register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+(cmd)\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,) )
+(cmd)Beginning to dump on file etex.fmt
+(cmd) (preloaded format=etex 2020.5.17)
+(cmd)2896 strings of total length 42790
+(cmd)7960 memory locations dumped; current usage is 203&7290
+(cmd)1264 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)14787 words of font info for 50 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6075 has 181 ops out of 35111
+(cmd)  181 for language 0
+(cmd)0 words of pdfTeX memory
+(cmd)0 indirect objects
+(cmd)No pages of output.
+(cmd)Transcript written on etex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/pdftex/etex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/pdftex/etex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking latex with pdftex
+(cmd)fmtutil: running `pdftex -ini   -jobname=latex -progname=latex -translate-file=cp227.tcx *latex.ini' ...
+(cmd)This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd) (/tmp/texlive/texmf-dist/web2c/cp227.tcx)
+(cmd)entering extended mode
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/latexconfig/latex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/latex.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-02-02> patch level 5
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omsenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmss.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlcmm.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omscmsy.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omxcmex.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+(cmd)environments, center, verbatim, math definitions, boxes, title, sectioning,
+(cmd)contents, floats, footnotes, index, bibliography, output,
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/utf8.def
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1enc.dfu))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ltexpl.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/l3deprecation.def))))
+(cmd) ) )
+(cmd)Beginning to dump on file latex.fmt
+(cmd) (preloaded format=latex 2020.5.17)
+(cmd)17575 strings of total length 301364
+(cmd)233313 memory locations dumped; current usage is 165&226347
+(cmd)15881 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)532331 words of font info for 24 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6081 has 183 ops out of 35111
+(cmd)  2 for language 1
+(cmd)  181 for language 0
+(cmd)0 words of pdfTeX memory
+(cmd)0 indirect objects
+(cmd)No pages of output.
+(cmd)Transcript written on latex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/pdftex/latex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/pdftex/latex.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 5
+(cmd)fmtutil [INFO]: not selected formats: 7
+(cmd)fmtutil [INFO]: total formats: 12
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine pdftex.
+
+[Sun May 17 18:26:31 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine xetex
+[Sun May 17 18:26:33 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /tmp/texlive/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /tmp/texlive/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /tmp/texlive/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking xetex with xetex
+(cmd)fmtutil: running `xetex -ini   -jobname=xetex -progname=xetex -etex xetex.ini' ...
+(cmd)This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)entering extended mode
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/xetex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex 
+(cmd)load-unicode-data.tex v1.13 (2020-04-15)
+(cmd)Reading Unicode data
+(cmd)# UnicodeData-13.0.0.txt
+(cmd)# Modified 2020-03-12 11:00:00 GMT [JAW]
+(cmd))
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-xetex-classes.te
+(cmd)x 
+(cmd)load-unicode-xetex-classes.tex v1.13 (2020-04-15)
+(cmd)Reading Unicode east Asian character class data
+(cmd)# LineBreak-13.0.0.txt 
+(cmd)# Date: 2020-02-17, 07:43:02 GMT [KW, LI] 
+(cmd)# EastAsianWidth-13.0.0.txt 
+(cmd)# Date: 2029-01-21, 18:14:00 GMT [KW, LI] 
+(cmd)) (/tmp/texlive/texmf-dist/tex/plain/etex/etex.src
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/tmp/texlive/texmf-var/tex/generic/config/language.def
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+(cmd)register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+(cmd)\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
+(cmd) )
+(cmd)Beginning to dump on file xetex.fmt
+(cmd) (preloaded format=xetex 2020.5.17)
+(cmd)70353 strings of total length 56866
+(cmd)11602 memory locations dumped; current usage is 647&7494
+(cmd)3808 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\seveni=cmmi7
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\tenit=cmti10
+(cmd)4739 words of font info for 16 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6076 has 181 ops out of 35111
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on xetex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/xetex/xetex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/xetex/xetex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking xelatex with xetex
+(cmd)fmtutil: running `xetex -ini   -jobname=xelatex -progname=xelatex -etex xelatex.ini' ...
+(cmd)This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)entering extended mode
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/xelatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/latex.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-02-02> patch level 5
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omsenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tuenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmss.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmtt.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmss.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlcmm.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omscmsy.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omxcmex.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+(cmd)environments, center, verbatim, math definitions, boxes, title, sectioning,
+(cmd)contents, floats, footnotes, index, bibliography, output,
+(cmd) Unicode character data,
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex 
+(cmd)load-unicode-data.tex v1.13 (2020-04-15)
+(cmd)Reading Unicode data
+(cmd)# UnicodeData-13.0.0.txt
+(cmd)# Modified 2020-03-12 11:00:00 GMT [JAW]
+(cmd))
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/babel/xebabel.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ltexpl.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/l3deprecation.def))))
+(cmd) ) )
+(cmd)Beginning to dump on file xelatex.fmt
+(cmd) (preloaded format=xelatex 2020.5.17)
+(cmd)84262 strings of total length 324442
+(cmd)238927 memory locations dumped; current usage is 299&231825
+(cmd)17631 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)532331 words of font info for 24 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6082 has 183 ops out of 35111
+(cmd)  2 for language 1
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on xelatex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/xetex/xelatex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/xetex/xelatex.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 2
+(cmd)fmtutil [INFO]: not selected formats: 10
+(cmd)fmtutil [INFO]: total formats: 12
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine xetex.
+
+[Sun May 17 18:26:33 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine luahbtex
+[Sun May 17 18:26:35 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /tmp/texlive/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /tmp/texlive/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /tmp/texlive/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking luahbtex with luahbtex
+(cmd)fmtutil: running `luahbtex -ini   -jobname=luahbtex -progname=luahbtex luatex.ini' ...
+(cmd)This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (INITEX)
+(cmd) restricted system commands enabled.
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/luatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/luatexconfig.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/config/luatexiniconfig.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex 
+(cmd)load-unicode-data.tex v1.13 (2020-04-15)
+(cmd)Reading Unicode data
+(cmd)# UnicodeData-13.0.0.txt
+(cmd)# Modified 2020-03-12 11:00:00 GMT [JAW]
+(cmd)) (/tmp/texlive/texmf-dist/tex/luatex/hyph-utf8/etex.src
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/tmp/texlive/texmf-var/tex/generic/config/language.def
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+(cmd)register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+(cmd)\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,))
+(cmd)Beginning to dump on file luahbtex.fmt
+(cmd) (format=luahbtex 2020.5.17)
+(cmd)3354 strings using 10269 bytes
+(cmd)68807 memory locations dumped; current usage is 149&7700
+(cmd)1869 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)50 preloaded fonts
+(cmd)warning  (pdf backend): no pages of output.
+(cmd)Transcript written on luahbtex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/luahbtex/luahbtex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/luahbtex/luahbtex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking lualatex with luahbtex
+(cmd)fmtutil: running `luahbtex -ini   -jobname=lualatex -progname=lualatex lualatex.ini' ...
+(cmd)This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (INITEX)
+(cmd) restricted system commands enabled.
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/lualatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/luatexconfig.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/latex.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-02-02> patch level 5
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omsenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tuenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmss.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmtt.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmss.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlcmm.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omscmsy.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omxcmex.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+(cmd)environments, center, verbatim, math definitions, boxes, title, sectioning,
+(cmd)contents, floats, footnotes, index, bibliography, output,
+(cmd) Unicode character data,
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex 
+(cmd)load-unicode-data.tex v1.13 (2020-04-15)
+(cmd)Reading Unicode data
+(cmd)# UnicodeData-13.0.0.txt
+(cmd)# Modified 2020-03-12 11:00:00 GMT [JAW]
+(cmd))
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/babel/luababel.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ltexpl.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/l3deprecation.def))))
+(cmd)))
+(cmd)Beginning to dump on file lualatex.fmt
+(cmd) (format=lualatex 2020.5.17)
+(cmd)19117 strings using 291981 bytes
+(cmd)553887 memory locations dumped; current usage is 204&257557
+(cmd)17741 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)24 preloaded fonts
+(cmd)warning  (pdf backend): no pages of output.
+(cmd)Transcript written on lualatex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/luahbtex/lualatex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/luahbtex/lualatex.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 2
+(cmd)fmtutil [INFO]: not selected formats: 10
+(cmd)fmtutil [INFO]: total formats: 12
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine luahbtex.
+
+[Sun May 17 18:26:35 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine luatex
+[Sun May 17 18:26:37 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /tmp/texlive/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /tmp/texlive/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /tmp/texlive/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking luatex with luatex
+(cmd)fmtutil: running `luatex -ini   -jobname=luatex -progname=luatex luatex.ini' ...
+(cmd)This is LuaTeX, Version 1.12.0 (TeX Live 2020)  (INITEX)
+(cmd) restricted system commands enabled.
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/luatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/luatexconfig.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/config/luatexiniconfig.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex 
+(cmd)load-unicode-data.tex v1.13 (2020-04-15)
+(cmd)Reading Unicode data
+(cmd)# UnicodeData-13.0.0.txt
+(cmd)# Modified 2020-03-12 11:00:00 GMT [JAW]
+(cmd)) (/tmp/texlive/texmf-dist/tex/luatex/hyph-utf8/etex.src
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/tmp/texlive/texmf-var/tex/generic/config/language.def
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+(cmd)register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+(cmd)\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,))
+(cmd)Beginning to dump on file luatex.fmt
+(cmd) (format=luatex 2020.5.17)
+(cmd)3354 strings using 10265 bytes
+(cmd)68807 memory locations dumped; current usage is 149&7700
+(cmd)1869 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)50 preloaded fonts
+(cmd)warning  (pdf backend): no pages of output.
+(cmd)Transcript written on luatex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/luatex/luatex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/luatex/luatex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking dvilualatex with luatex
+(cmd)fmtutil: running `luatex -ini   -jobname=dvilualatex -progname=dvilualatex dvilualatex.ini' ...
+(cmd)This is LuaTeX, Version 1.12.0 (TeX Live 2020)  (INITEX)
+(cmd) restricted system commands enabled.
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/dvilualatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/lualatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/luatexconfig.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/latex.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-02-02> patch level 5
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omsenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ts1enc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tuenc.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmss.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/tulmtt.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/t1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmr.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmss.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omlcmm.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omscmsy.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/omxcmex.fd)
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/preload.ltx)) page nos., x-ref,
+(cmd)environments, center, verbatim, math definitions, boxes, title, sectioning,
+(cmd)contents, floats, footnotes, index, bibliography, output,
+(cmd) Unicode character data,
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex 
+(cmd)load-unicode-data.tex v1.13 (2020-04-15)
+(cmd)Reading Unicode data
+(cmd)# UnicodeData-13.0.0.txt
+(cmd)# Modified 2020-03-12 11:00:00 GMT [JAW]
+(cmd))
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/babel/luababel.def)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/base/ltexpl.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/latex/l3kernel/l3deprecation.def))))
+(cmd))))
+(cmd)Beginning to dump on file dvilualatex.fmt
+(cmd) (format=dvilualatex 2020.5.17)
+(cmd)19122 strings using 292005 bytes
+(cmd)553893 memory locations dumped; current usage is 204&257560
+(cmd)17741 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)24 preloaded fonts
+(cmd)No pages of output.
+(cmd)Transcript written on dvilualatex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/luatex/dvilualatex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/luatex/dvilualatex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking dviluatex with luatex
+(cmd)fmtutil: running `luatex -ini   -jobname=dviluatex -progname=dviluatex dviluatex.ini' ...
+(cmd)This is LuaTeX, Version 1.12.0 (TeX Live 2020)  (INITEX)
+(cmd) restricted system commands enabled.
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/dviluatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/luatex.ini
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/luatexconfig.tex
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/tex-ini-files/pdftexconfig.tex))
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/config/luatexiniconfig.tex)
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/unicode-data/load-unicode-data.tex 
+(cmd)load-unicode-data.tex v1.13 (2020-04-15)
+(cmd)Reading Unicode data
+(cmd)# UnicodeData-13.0.0.txt
+(cmd)# Modified 2020-03-12 11:00:00 GMT [JAW]
+(cmd)) (/tmp/texlive/texmf-dist/tex/luatex/hyph-utf8/etex.src
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/tmp/texlive/texmf-dist/tex/plain/etex/etexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/tmp/texlive/texmf-var/tex/generic/config/language.def
+(cmd)(/tmp/texlive/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \loggingall, \tracingnone,
+(cmd)register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \etexhdrchk,
+(cmd)\etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)))
+(cmd)Beginning to dump on file dviluatex.fmt
+(cmd) (format=dviluatex 2020.5.17)
+(cmd)3359 strings using 10284 bytes
+(cmd)68807 memory locations dumped; current usage is 149&7700
+(cmd)1869 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)50 preloaded fonts
+(cmd)No pages of output.
+(cmd)Transcript written on dviluatex.log.
+(cmd)fmtutil [INFO]: log file copied to: /tmp/texlive/texmf-var/web2c/luatex/dviluatex.log
+(cmd)fmtutil [INFO]: /tmp/texlive/texmf-var/web2c/luatex/dviluatex.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 3
+(cmd)fmtutil [INFO]: not selected formats: 9
+(cmd)fmtutil [INFO]: total formats: 12
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine luatex.
+
+[Sun May 17 18:47:49 2020] install: adobemapping
+[Sun May 17 18:47:49 2020] install: amscls
+[Sun May 17 18:47:53 2020] install: amsfonts
+[Sun May 17 19:01:51 2020] install: arphic
+[Sun May 17 19:01:51 2020] install: atbegshi
+[Sun May 17 19:01:51 2020] install: atveryend
+[Sun May 17 19:01:51 2020] install: auxhook
+[Sun May 17 19:01:52 2020] install: beamer
+[Sun May 17 19:01:52 2020] install: bigintcalc
+[Sun May 17 19:01:52 2020] install: bitset
+[Sun May 17 19:01:52 2020] install: cjk
+[Sun May 17 19:01:52 2020] install: cjkpunct
+[Sun May 17 19:01:55 2020] install: cns
+[Sun May 17 19:01:55 2020] install: ctablestack
+[Sun May 17 19:01:55 2020] install: ctex
+[Sun May 17 19:01:56 2020] install: ec
+[Sun May 17 19:01:56 2020] install: epstopdf-pkg
+[Sun May 17 19:01:56 2020] install: etexcmds
+[Sun May 17 19:01:56 2020] install: etoolbox
+[Sun May 17 19:01:56 2020] install: euenc
+[Sun May 17 19:01:56 2020] install: everyhook
+[Sun May 17 19:02:16 2020] install: fandol
+[Sun May 17 19:02:20 2020] install: fonts-tlwg
+[Sun May 17 19:02:20 2020] install: fontspec
+[Sun May 17 19:02:21 2020] install: garuda-c90
+[Sun May 17 19:02:21 2020] install: geometry
+[Sun May 17 19:02:21 2020] install: gettitlestring
+[Sun May 17 19:02:21 2020] install: hycolor
+[Sun May 17 19:02:21 2020] install: hyperref
+[Sun May 17 19:02:21 2020] install: iftex
+[Sun May 17 19:02:21 2020] install: infwarerr
+[Sun May 17 19:02:21 2020] install: intcalc
+[Sun May 17 19:02:22 2020] install: kvdefinekeys
+[Sun May 17 19:02:22 2020] install: kvoptions
+[Sun May 17 19:02:22 2020] install: kvsetkeys
+[Sun May 17 19:02:22 2020] install: latex-base-dev
+[Sun May 17 19:02:22 2020] install: letltxmacro
+[Sun May 17 19:02:22 2020] install: ltxcmds
+[Sun May 17 19:02:22 2020] install: luatexbase
+[Sun May 17 19:02:23 2020] install: luatexja
+[Sun May 17 19:02:23 2020] install: mptopdf.x86_64-linux
+[Sun May 17 19:02:23 2020] install: mptopdf
+[Sun May 17 19:02:23 2020] install: ms
+[Sun May 17 19:02:23 2020] install: norasi-c90
+[Sun May 17 19:02:24 2020] install: pdfescape
+[Sun May 17 19:02:24 2020] install: pdftexcmds
+[Sun May 17 19:02:24 2020] install: pgf
+[Sun May 17 19:02:25 2020] install: platex.x86_64-linux
+[Sun May 17 19:02:25 2020] install: platex
+[Sun May 17 19:02:25 2020] install: platex-tools
+[Sun May 17 19:02:26 2020] install: ptex.x86_64-linux
+[Sun May 17 19:02:26 2020] install: ptex
+[Sun May 17 19:02:26 2020] install: ptex-base
+[Sun May 17 19:02:26 2020] install: ptex-fonts
+[Sun May 17 19:02:27 2020] install: refcount
+[Sun May 17 19:02:27 2020] install: rerunfilecheck
+[Sun May 17 19:02:27 2020] install: stringenc
+[Sun May 17 19:02:27 2020] install: svn-prov
+[Sun May 17 19:02:30 2020] install: tipa
+[Sun May 17 19:02:30 2020] install: tools
+[Sun May 17 19:02:30 2020] install: translator
+[Sun May 17 19:02:30 2020] install: ttfutils.x86_64-linux
+[Sun May 17 19:02:31 2020] install: ttfutils
+[Sun May 17 19:02:34 2020] install: uhc
+[Sun May 17 19:02:34 2020] install: ulem
+[Sun May 17 19:02:34 2020] install: uniquecounter
+[Sun May 17 19:02:34 2020] install: uplatex.x86_64-linux
+[Sun May 17 19:02:34 2020] install: uplatex
+[Sun May 17 19:02:41 2020] install: uptex.x86_64-linux
+[Sun May 17 19:02:41 2020] install: uptex
+[Sun May 17 19:02:41 2020] install: uptex-base
+[Sun May 17 19:02:41 2020] install: uptex-fonts
+[Sun May 17 19:02:42 2020] install: url
+[Sun May 17 19:02:57 2020] install: wadalab
+[Sun May 17 19:02:57 2020] install: xcjk2uni
+[Sun May 17 19:02:57 2020] install: xcolor
+[Sun May 17 19:02:58 2020] install: xecjk
+[Sun May 17 19:02:58 2020] install: xkeyval
+[Sun May 17 19:02:58 2020] install: xpinyin
+[Sun May 17 19:02:58 2020] install: xunicode
+[Sun May 17 19:02:58 2020] install: zapfding
+[Sun May 17 19:02:59 2020] install: zhmetrics
+[Sun May 17 19:02:59 2020] install: zhmetrics-uptex
+[Sun May 17 19:02:59 2020] install: zhnumber
+[Sun May 17 19:02:59 2020] running mktexlsr
+[Sun May 17 19:02:59 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Sun May 17 19:02:59 2020] running updmap-sys
+[Sun May 17 19:03:00 2020] success, output:
+(cmd)updmap will read the following updmap.cfg files (in precedence order):
+(cmd)  /home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg
+(cmd)updmap may write changes to the following updmap.cfg file:
+(cmd)  /home/gehao/.TinyTeX/texmf-config/web2c/updmap.cfg
+(cmd)dvips output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/dvips/updmap"
+(cmd)pdftex output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap"
+(cmd)dvipdfmx output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap"
+(cmd)updmap [WARNING]: generated map uptex-haranoaji-04.map (from uptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-ko-baekmuk.map (from uptex-ko-@koEmbed@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-tc-arphic.map (from uptex-tc-@tcEmbed@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map ptex-haranoaji-04.map (from ptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-sc-arphic.map (from uptex-sc-@scEmbed@.map) does not exist, not activating it!
+(cmd)
+(cmd)updmap is creating new map files
+(cmd)using the following configuration:
+(cmd)  LW35 font names                  : URWkb (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  prefer outlines                  : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  texhash enabled                  : true
+(cmd)  download standard fonts (dvips)  : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  download standard fonts (pdftex) : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaEmbed replacement string       : haranoaji (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaVariant replacement string     : -04 (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  scEmbed replacement string       : arphic (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  tcEmbed replacement string       : arphic (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  koEmbed replacement string       : baekmuk (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  create a mapfile for pxdvi       : false (default)
+(cmd)
+(cmd)Scanning for LW35 support files  [  3 files]
+(cmd)Scanning for MixedMap entries    [  7 files]
+(cmd)Scanning for KanjiMap entries    [  0 files]
+(cmd)Scanning for Map entries         [ 22 files]
+(cmd)
+(cmd)Generating output for dvipdfmx...
+(cmd)Generating output for ps2pk...
+(cmd)Generating output for dvips...
+(cmd)Generating output for pdftex...
+(cmd)
+(cmd)Files generated:
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/dvips/updmap:
+(cmd)       15790 2020-05-17 19:03:00 builtin35.map
+(cmd)       21263 2020-05-17 19:03:00 download35.map
+(cmd)      104035 2020-05-17 19:03:00 psfonts_pk.map
+(cmd)      110201 2020-05-17 19:03:00 psfonts_t1.map
+(cmd)      110196 2020-05-17 19:03:00 ps2pk.map
+(cmd)          14 2020-05-17 19:03:00 psfonts.map -> psfonts_t1.map
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap:
+(cmd)      110203 2020-05-17 19:03:00 pdftex_dl14.map
+(cmd)      108538 2020-05-17 19:03:00 pdftex_ndl14.map
+(cmd)          15 2020-05-17 19:03:00 pdftex.map -> pdftex_dl14.map
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap:
+(cmd)         313 2020-05-17 19:02:59 kanjix.map
+(cmd)
+(cmd)Transcript written on "/home/gehao/.TinyTeX/texmf-var/web2c/updmap.log".
+(cmd)updmap: Updating ls-R files.
+--end of output of updmap-sys.
+
+[Sun May 17 19:03:00 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine eptex
+[Sun May 17 19:03:01 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /home/gehao/.TinyTeX/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking eptex with eptex
+(cmd)fmtutil: running `eptex -ini   -jobname=eptex -progname=eptex *eptex.ini' ...
+(cmd)This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)entering extended mode
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/eptex.ini
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/eptex.src
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/ptex.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/kinsoku.tex))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/eptexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/home/gehao/.TinyTeX/texmf-var/tex/generic/config/language.def
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \epTeX,  \loggingall, \tracingnone,
+(cmd)register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \epTeX,
+(cmd)\etexhdrchk, \etexstatus, \module, \uselanguage, \r@tain, \r@cycle, ) )
+(cmd)Beginning to dump on file eptex.fmt
+(cmd) (preloaded format=eptex 2020.5.17)
+(cmd)2510 strings of total length 36270
+(cmd)8004 memory locations dumped; current usage is 228&7305
+(cmd)1218 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)\font\tenmin=min10
+(cmd)\font\preloaded=min9
+(cmd)\font\preloaded=min8
+(cmd)\font\sevenmin=min7
+(cmd)\font\preloaded=min6
+(cmd)\font\fivemin=min5
+(cmd)\font\tengt=goth10
+(cmd)\font\preloaded=goth9
+(cmd)\font\preloaded=goth8
+(cmd)\font\sevengt=goth7
+(cmd)\font\preloaded=goth6
+(cmd)\font\fivegt=goth5
+(cmd)\font\tentmin=tmin10
+(cmd)\font\preloaded=tmin9
+(cmd)\font\preloaded=tmin8
+(cmd)\font\seventmin=tmin7
+(cmd)\font\preloaded=tmin6
+(cmd)\font\fivetmin=tmin5
+(cmd)\font\tentgt=tgoth10
+(cmd)\font\preloaded=tgoth9
+(cmd)\font\preloaded=tgoth8
+(cmd)\font\seventgt=tgoth7
+(cmd)\font\preloaded=tgoth6
+(cmd)\font\fivetgt=tgoth5
+(cmd)20343 words of font info for 74 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6075 has 181 ops out of 35111
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on eptex.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/eptex/eptex.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/eptex/eptex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking platex with eptex
+(cmd)fmtutil: running `eptex -ini   -jobname=platex -progname=platex *platex.ini' ...
+(cmd)This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)entering extended mode
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/config/platex.ini
+(cmd)<<< making "platex with Babel" format >>>
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/platex.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/latex.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-02-02> patch level 5
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/fonttext.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omlenc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omsenc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/t1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ts1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/t1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1cmss.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/fontmath.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omlcmm.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omscmsy.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omxcmex.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/preload.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/preload.ltx)) page nos.,
+(cmd)x-ref, environments, center, verbatim, math definitions, boxes, title,
+(cmd)sectioning, contents, floats, footnotes, index, bibliography, output,
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/utf8.def
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omsenc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1enc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/t1enc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ltexpl.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/l3deprecation.def))))
+(cmd))
+(cmd)**************************
+(cmd)*
+(cmd)* making pLaTeX format
+(cmd)*
+(cmd)**************************
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/plcore.ltx)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/pldefs.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/jy1mc.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/jy1gt.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/jt1mc.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/jt1gt.fd)
+(cmd)Loading kinsoku patterns for japanese.
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/kinsoku.tex)) ) )
+(cmd)Beginning to dump on file platex.fmt
+(cmd) (preloaded format=platex 2020.5.17)
+(cmd)17532 strings of total length 300666
+(cmd)233428 memory locations dumped; current usage is 246&232258
+(cmd)16174 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)\font\JY1/mc/m/n/10=min10
+(cmd)\font\@bannerfont=cmtt9
+(cmd)\font\JT1/mc/m/n/10=tmin10
+(cmd)\font\JY1/mc/m/n/5=min5
+(cmd)\font\JY1/mc/m/n/7=min7
+(cmd)\font\JY1/mc/m/n/12=min10 at 12.0pt
+(cmd)\font\JY1/gt/m/n/5=goth5
+(cmd)\font\JY1/gt/m/n/7=goth7
+(cmd)\font\JY1/gt/m/n/10=goth10
+(cmd)\font\JY1/gt/m/n/12=goth10 at 12.0pt
+(cmd)\font\JT1/mc/m/n/5=tmin5
+(cmd)\font\JT1/mc/m/n/7=tmin7
+(cmd)\font\JT1/mc/m/n/12=tmin10 at 12.0pt
+(cmd)\font\JT1/gt/m/n/5=tgoth5
+(cmd)\font\JT1/gt/m/n/7=tgoth7
+(cmd)\font\JT1/gt/m/n/10=tgoth10
+(cmd)\font\JT1/gt/m/n/12=tgoth10 at 12.0pt
+(cmd)536202 words of font info for 41 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6081 has 183 ops out of 35111
+(cmd)  2 for language 1
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on platex.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/eptex/platex.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/eptex/platex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking platex-dev with eptex
+(cmd)fmtutil: running `eptex -ini   -jobname=platex-dev -progname=platex-dev *platex.ini' ...
+(cmd)This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)entering extended mode
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/config/platex.ini
+(cmd)<<< making "platex with Babel" format >>>
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/platex.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/latex.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-10-01> pre-release-5 (develop 2020-5-17 branch)
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/fonttext.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omlenc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omsenc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/t1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ts1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ts1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/t1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmss.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/fontmath.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omlcmm.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omscmsy.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omxcmex.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/preload.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/preload.ltx)) page nos.,
+(cmd)x-ref, environments, center, verbatim, math definitions, boxes, title,
+(cmd)sectioning, contents, floats, footnotes, index, bibliography, output,
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/utf8.def
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omsenc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1enc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/t1enc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ts1enc.dfu))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ltexpl.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/l3deprecation.def)))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+(cmd))))
+(cmd))
+(cmd)**************************
+(cmd)*
+(cmd)* making pLaTeX format
+(cmd)*
+(cmd)**************************
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/plcore.ltx)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/pldefs.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/jy1mc.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/jy1gt.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/jt1mc.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/jt1gt.fd)
+(cmd)Loading kinsoku patterns for japanese.
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/kinsoku.tex)) ) )
+(cmd)Beginning to dump on file platex-dev.fmt
+(cmd) (preloaded format=platex-dev 2020.5.17)
+(cmd)17904 strings of total length 311961
+(cmd)246322 memory locations dumped; current usage is 246&245670
+(cmd)16539 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)\font\JY1/mc/m/n/10=min10
+(cmd)\font\@bannerfont=cmtt9
+(cmd)\font\JT1/mc/m/n/10=tmin10
+(cmd)\font\JY1/mc/m/n/5=min5
+(cmd)\font\JY1/mc/m/n/7=min7
+(cmd)\font\JY1/mc/m/n/12=min10 at 12.0pt
+(cmd)\font\JY1/gt/m/n/5=goth5
+(cmd)\font\JY1/gt/m/n/7=goth7
+(cmd)\font\JY1/gt/m/n/10=goth10
+(cmd)\font\JY1/gt/m/n/12=goth10 at 12.0pt
+(cmd)\font\JT1/mc/m/n/5=tmin5
+(cmd)\font\JT1/mc/m/n/7=tmin7
+(cmd)\font\JT1/mc/m/n/12=tmin10 at 12.0pt
+(cmd)\font\JT1/gt/m/n/5=tgoth5
+(cmd)\font\JT1/gt/m/n/7=tgoth7
+(cmd)\font\JT1/gt/m/n/10=tgoth10
+(cmd)\font\JT1/gt/m/n/12=tgoth10 at 12.0pt
+(cmd)536202 words of font info for 41 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6081 has 183 ops out of 35111
+(cmd)  2 for language 1
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on platex-dev.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/eptex/platex-dev.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/eptex/platex-dev.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 3
+(cmd)fmtutil [INFO]: not selected formats: 18
+(cmd)fmtutil [INFO]: total formats: 21
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine eptex.
+
+[Sun May 17 19:03:01 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine uptex
+[Sun May 17 19:03:01 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /home/gehao/.TinyTeX/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking uptex with uptex
+(cmd)fmtutil: running `uptex -ini   -jobname=uptex -progname=uptex uptex.ini' ...
+(cmd)This is upTeX, Version 3.14159265-p3.8.3-u1.26 (utf8.uptex) (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uptex/uptex-base/uptex.ini
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uptex/uptex-base/uptex.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uptex/uptex-base/ukinsoku.tex)) )
+(cmd)Beginning to dump on file uptex.fmt
+(cmd) (preloaded format=uptex 2020.5.17)
+(cmd)2171 strings of total length 31291
+(cmd)5058 memory locations dumped; current usage is 128&4910
+(cmd)998 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)\font\tenmin=upjisr-h
+(cmd)\font\sevenmin=upjisr-h at 7.0pt
+(cmd)\font\fivemin=upjisr-h at 5.0pt
+(cmd)\font\tengt=upjisg-h
+(cmd)\font\sevengt=upjisg-h at 7.0pt
+(cmd)\font\fivegt=upjisg-h at 5.0pt
+(cmd)\font\tentmin=upjisr-v
+(cmd)\font\seventmin=upjisr-v at 7.0pt
+(cmd)\font\fivetmin=upjisr-v at 5.0pt
+(cmd)\font\tentgt=upjisg-v
+(cmd)\font\seventgt=upjisg-v at 7.0pt
+(cmd)\font\fivetgt=upjisg-v at 5.0pt
+(cmd)16509 words of font info for 62 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6075 has 181 ops out of 35111
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on uptex.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/uptex/uptex.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/uptex/uptex.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 1
+(cmd)fmtutil [INFO]: not selected formats: 20
+(cmd)fmtutil [INFO]: total formats: 21
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine uptex.
+
+[Sun May 17 19:03:01 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine ptex
+[Sun May 17 19:03:01 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /home/gehao/.TinyTeX/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking ptex with ptex
+(cmd)fmtutil: running `ptex -ini   -jobname=ptex -progname=ptex ptex.ini' ...
+(cmd)This is pTeX, Version 3.14159265-p3.8.3 (utf8.euc) (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/ptex.ini
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/ptex.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/kinsoku.tex)) )
+(cmd)Beginning to dump on file ptex.fmt
+(cmd) (preloaded format=ptex 2020.5.17)
+(cmd)2177 strings of total length 31302
+(cmd)5053 memory locations dumped; current usage is 128&4905
+(cmd)990 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)\font\tenmin=min10
+(cmd)\font\preloaded=min9
+(cmd)\font\preloaded=min8
+(cmd)\font\sevenmin=min7
+(cmd)\font\preloaded=min6
+(cmd)\font\fivemin=min5
+(cmd)\font\tengt=goth10
+(cmd)\font\preloaded=goth9
+(cmd)\font\preloaded=goth8
+(cmd)\font\sevengt=goth7
+(cmd)\font\preloaded=goth6
+(cmd)\font\fivegt=goth5
+(cmd)\font\tentmin=tmin10
+(cmd)\font\preloaded=tmin9
+(cmd)\font\preloaded=tmin8
+(cmd)\font\seventmin=tmin7
+(cmd)\font\preloaded=tmin6
+(cmd)\font\fivetmin=tmin5
+(cmd)\font\tentgt=tgoth10
+(cmd)\font\preloaded=tgoth9
+(cmd)\font\preloaded=tgoth8
+(cmd)\font\seventgt=tgoth7
+(cmd)\font\preloaded=tgoth6
+(cmd)\font\fivetgt=tgoth5
+(cmd)20343 words of font info for 74 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6075 has 181 ops out of 35111
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on ptex.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/ptex/ptex.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/ptex/ptex.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 1
+(cmd)fmtutil [INFO]: not selected formats: 20
+(cmd)fmtutil [INFO]: total formats: 21
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine ptex.
+
+[Sun May 17 19:03:01 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine euptex
+[Sun May 17 19:03:02 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /home/gehao/.TinyTeX/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking euptex with euptex
+(cmd)fmtutil: running `euptex -ini   -jobname=euptex -progname=euptex *euptex.ini' ...
+(cmd)This is e-upTeX, Version 3.14159265-p3.8.3-u1.26-191112-2.6 (utf8.uptex) (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)entering extended mode
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uptex/uptex-base/euptex.ini
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uptex/uptex-base/euptex.src
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uptex/uptex-base/uptex.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts, more fonts,
+(cmd)macros, math definitions, output routines, hyphenation
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex
+(cmd)[skipping from \patterns to end-of-file...]))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uptex/uptex-base/ukinsoku.tex))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/ptex/ptex-base/eptexdefs.lib
+(cmd)Skipping module "grouptypes"; Loading module "interactionmodes";
+(cmd)Skipping module "nodetypes"; Skipping module "iftypes";)
+(cmd)(/home/gehao/.TinyTeX/texmf-var/tex/generic/config/language.def
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex))
+(cmd)Augmenting the Plain TeX definitions: \tracingall;
+(cmd)Adding new e-TeX definitions: \eTeX, \epTeX, \eupTeX,  \loggingall,
+(cmd)\tracingnone, register allocation; extended register allocation; 
+(cmd)Recycling: \addlanguage, \@nswer (not defined), \@sk, \b@dresponsetrue,
+(cmd)\b@dresponsefalse, \ch@ckforyn, \mayber@cycle, \et@xabort, \et@xbuf,
+(cmd)\et@xfmtsrc, \et@xfilehdr, \et@xinf, \et@xpatterns, \l@ngdefnfile, \n@xt,
+(cmd)\p@rse (not defined), \pr@mpt (not defined), \pr@mptloop (not defined),
+(cmd)\forcer@cycle, \usef@llback, \usef@llbacktrue, \usef@llbackfalse, 
+(cmd)Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
+(cmd)\et@xl@@d, \et@xl@ad, \et@xload, \et@xlang, \et@xhash, \eTeX, \epTeX, \eupTeX,
+(cmd)\etexhdrchk, \etexstatus, \module, \uselanguage, \r@tain, \r@cycle, ) )
+(cmd)Beginning to dump on file euptex.fmt
+(cmd) (preloaded format=euptex 2020.5.17)
+(cmd)2510 strings of total length 36479
+(cmd)8018 memory locations dumped; current usage is 228&7319
+(cmd)1228 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\tenrm=cmr10
+(cmd)\font\preloaded=cmr9
+(cmd)\font\preloaded=cmr8
+(cmd)\font\sevenrm=cmr7
+(cmd)\font\preloaded=cmr6
+(cmd)\font\fiverm=cmr5
+(cmd)\font\teni=cmmi10
+(cmd)\font\preloaded=cmmi9
+(cmd)\font\preloaded=cmmi8
+(cmd)\font\seveni=cmmi7
+(cmd)\font\preloaded=cmmi6
+(cmd)\font\fivei=cmmi5
+(cmd)\font\tensy=cmsy10
+(cmd)\font\preloaded=cmsy9
+(cmd)\font\preloaded=cmsy8
+(cmd)\font\sevensy=cmsy7
+(cmd)\font\preloaded=cmsy6
+(cmd)\font\fivesy=cmsy5
+(cmd)\font\tenex=cmex10
+(cmd)\font\preloaded=cmss10
+(cmd)\font\preloaded=cmssq8
+(cmd)\font\preloaded=cmssi10
+(cmd)\font\preloaded=cmssqi8
+(cmd)\font\tenbf=cmbx10
+(cmd)\font\preloaded=cmbx9
+(cmd)\font\preloaded=cmbx8
+(cmd)\font\sevenbf=cmbx7
+(cmd)\font\preloaded=cmbx6
+(cmd)\font\fivebf=cmbx5
+(cmd)\font\tentt=cmtt10
+(cmd)\font\preloaded=cmtt9
+(cmd)\font\preloaded=cmtt8
+(cmd)\font\preloaded=cmsltt10
+(cmd)\font\tensl=cmsl10
+(cmd)\font\preloaded=cmsl9
+(cmd)\font\preloaded=cmsl8
+(cmd)\font\tenit=cmti10
+(cmd)\font\preloaded=cmti9
+(cmd)\font\preloaded=cmti8
+(cmd)\font\preloaded=cmti7
+(cmd)\font\preloaded=cmu10
+(cmd)\font\preloaded=cmmib10
+(cmd)\font\preloaded=cmbsy10
+(cmd)\font\preloaded=cmcsc10
+(cmd)\font\preloaded=cmssbx10
+(cmd)\font\preloaded=cmdunh10
+(cmd)\font\preloaded=cmr7 at 14.51799pt
+(cmd)\font\preloaded=cmtt10 at 14.4pt
+(cmd)\font\preloaded=cmssbx10 at 14.4pt
+(cmd)\font\preloaded=manfnt
+(cmd)\font\tenmin=upjisr-h
+(cmd)\font\sevenmin=upjisr-h at 7.0pt
+(cmd)\font\fivemin=upjisr-h at 5.0pt
+(cmd)\font\tengt=upjisg-h
+(cmd)\font\sevengt=upjisg-h at 7.0pt
+(cmd)\font\fivegt=upjisg-h at 5.0pt
+(cmd)\font\tentmin=upjisr-v
+(cmd)\font\seventmin=upjisr-v at 7.0pt
+(cmd)\font\fivetmin=upjisr-v at 5.0pt
+(cmd)\font\tentgt=upjisg-v
+(cmd)\font\seventgt=upjisg-v at 7.0pt
+(cmd)\font\fivetgt=upjisg-v at 5.0pt
+(cmd)16509 words of font info for 62 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6075 has 181 ops out of 35111
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on euptex.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/euptex/euptex.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/euptex/euptex.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking uplatex-dev with euptex
+(cmd)fmtutil: running `euptex -ini   -jobname=uplatex-dev -progname=uplatex-dev *uplatex.ini' ...
+(cmd)This is e-upTeX, Version 3.14159265-p3.8.3-u1.26-191112-2.6 (utf8.uptex) (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)entering extended mode
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/config/uplatex.ini
+(cmd)<<< making "uplatex with Babel" format >>>
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/uplatex.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/latex.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-10-01> pre-release-5 (develop 2020-5-17 branch)
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/fonttext.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omlenc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omsenc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/t1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ts1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ts1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/t1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmss.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/fontmath.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omlcmm.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omscmsy.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omxcmex.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/preload.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/preload.ltx)) page nos.,
+(cmd)x-ref, environments, center, verbatim, math definitions, boxes, title,
+(cmd)sectioning, contents, floats, footnotes, index, bibliography, output,
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/utf8.def
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/omsenc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ot1enc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/t1enc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ts1enc.dfu))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex-dev/base/ltexpl.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/l3deprecation.def)))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+(cmd))))
+(cmd))
+(cmd)**************************
+(cmd)*
+(cmd)* making upLaTeX format
+(cmd)*
+(cmd)**************************
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/plcore.ltx)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/uplcore.ltx)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/upldefs.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/jy2mc.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/jy2gt.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/jt2mc.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/jt2gt.fd)
+(cmd)Loading kinsoku patterns for japanese.
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/ukinsoku.tex)) ) )
+(cmd)Beginning to dump on file uplatex-dev.fmt
+(cmd) (preloaded format=uplatex-dev 2020.5.17)
+(cmd)17910 strings of total length 312036
+(cmd)246741 memory locations dumped; current usage is 246&246033
+(cmd)16540 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)\font\tenmin=upjisr-h at 9.62216pt
+(cmd)\font\@bannerfont=cmtt9
+(cmd)\font\JT2/mc/m/n/10=upjisr-v at 9.6222pt
+(cmd)\font\JY2/mc/m/n/10=upjisr-h at 9.6222pt
+(cmd)\font\JY2/mc/m/n/5=upjisr-h at 4.8111pt
+(cmd)\font\JY2/mc/m/n/7=upjisr-h at 6.73553pt
+(cmd)\font\JY2/mc/m/n/12=upjisr-h at 11.54663pt
+(cmd)\font\JY2/gt/m/n/5=upjisg-h at 4.8111pt
+(cmd)\font\JY2/gt/m/n/7=upjisg-h at 6.73553pt
+(cmd)\font\JY2/gt/m/n/10=upjisg-h at 9.6222pt
+(cmd)\font\JY2/gt/m/n/12=upjisg-h at 11.54663pt
+(cmd)\font\JT2/mc/m/n/5=upjisr-v at 4.8111pt
+(cmd)\font\JT2/mc/m/n/7=upjisr-v at 6.73553pt
+(cmd)\font\JT2/mc/m/n/12=upjisr-v at 11.54663pt
+(cmd)\font\JT2/gt/m/n/5=upjisg-v at 4.8111pt
+(cmd)\font\JT2/gt/m/n/7=upjisg-v at 6.73553pt
+(cmd)\font\JT2/gt/m/n/10=upjisg-v at 9.6222pt
+(cmd)\font\JT2/gt/m/n/12=upjisg-v at 11.54663pt
+(cmd)534972 words of font info for 42 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6081 has 183 ops out of 35111
+(cmd)  2 for language 1
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on uplatex-dev.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/euptex/uplatex-dev.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/euptex/uplatex-dev.fmt installed.
+(cmd)fmtutil [INFO]: --- remaking uplatex with euptex
+(cmd)fmtutil: running `euptex -ini   -jobname=uplatex -progname=uplatex *uplatex.ini' ...
+(cmd)This is e-upTeX, Version 3.14159265-p3.8.3-u1.26-191112-2.6 (utf8.uptex) (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd)entering extended mode
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/config/uplatex.ini
+(cmd)<<< making "uplatex with Babel" format >>>
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/uplatex.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/latex.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/texsys.cfg)
+(cmd)./texsys.aux found
+(cmd)
+(cmd)
+(cmd)\@currdir set to: ./.
+(cmd)
+(cmd)
+(cmd)Assuming \openin and \input 
+(cmd)have the same search path.
+(cmd)
+(cmd)
+(cmd)Defining UNIX/DOS style filename parser.
+(cmd)
+(cmd)catcodes, registers, parameters,
+(cmd)LaTeX2e <2020-02-02> patch level 5
+(cmd)hacks, control, par, spacing, files, font encodings, lengths,
+(cmd)====================================
+(cmd)
+(cmd)Local config file fonttext.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/fonttext.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/fonttext.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omlenc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omsenc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/t1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ts1enc.def)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/t1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1cmr.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1cmss.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1cmtt.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file fontmath.cfg used
+(cmd)
+(cmd)====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/fontmath.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/fontmath.ltx
+(cmd)=== Don't modify this file, use a .cfg file instead ===
+(cmd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omlcmm.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omscmsy.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omxcmex.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ucmr.fd)))
+(cmd)====================================
+(cmd)
+(cmd)Local config file preload.cfg used
+(cmd)
+(cmd)=====================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/preload.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/preload.ltx)) page nos.,
+(cmd)x-ref, environments, center, verbatim, math definitions, boxes, title,
+(cmd)sectioning, contents, floats, footnotes, index, bibliography, output,
+(cmd)===========================================
+(cmd)Local configuration file hyphen.cfg used
+(cmd)===========================================
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/babel/hyphen.cfg
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/hyphen.tex)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/dumyhyph.tex)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/hyphen/zerohyph.tex))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/utf8.def
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/omsenc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ot1enc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/t1enc.dfu)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu))
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/base/ltexpl.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/latex/l3kernel/l3deprecation.def))))
+(cmd))
+(cmd)**************************
+(cmd)*
+(cmd)* making upLaTeX format
+(cmd)*
+(cmd)**************************
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/platex/base/plcore.ltx)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/uplcore.ltx)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/upldefs.ltx
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/jy2mc.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/jy2gt.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/jt2mc.fd)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/jt2gt.fd)
+(cmd)Loading kinsoku patterns for japanese.
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/uplatex/base/ukinsoku.tex)) ) )
+(cmd)Beginning to dump on file uplatex.fmt
+(cmd) (preloaded format=uplatex 2020.5.17)
+(cmd)17538 strings of total length 300741
+(cmd)233436 memory locations dumped; current usage is 246&232621
+(cmd)16175 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)\font\OMX/cmex/m/n/10=cmex10
+(cmd)\font\tenln=line10
+(cmd)\font\tenlnw=linew10
+(cmd)\font\tencirc=lcircle10
+(cmd)\font\tencircw=lcirclew10
+(cmd)\font\OT1/cmr/m/n/5=cmr5
+(cmd)\font\OT1/cmr/m/n/7=cmr7
+(cmd)\font\OT1/cmr/m/n/10=cmr10
+(cmd)\font\OML/cmm/m/it/5=cmmi5
+(cmd)\font\OML/cmm/m/it/7=cmmi7
+(cmd)\font\OML/cmm/m/it/10=cmmi10
+(cmd)\font\OMS/cmsy/m/n/5=cmsy5
+(cmd)\font\OMS/cmsy/m/n/7=cmsy7
+(cmd)\font\OMS/cmsy/m/n/10=cmsy10
+(cmd)\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+(cmd)\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+(cmd)\font\g__regex_charcode_intarray=cmr10 at 0.00005pt
+(cmd)\font\g__regex_catcode_intarray=cmr10 at 0.00006pt
+(cmd)\font\g__regex_balance_intarray=cmr10 at 0.00008pt
+(cmd)\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+(cmd)\font\g__regex_thread_state_intarray=cmr10 at 0.0001pt
+(cmd)\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+(cmd)\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+(cmd)\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+(cmd)\font\tenmin=upjisr-h at 9.62216pt
+(cmd)\font\@bannerfont=cmtt9
+(cmd)\font\JT2/mc/m/n/10=upjisr-v at 9.6222pt
+(cmd)\font\JY2/mc/m/n/10=upjisr-h at 9.6222pt
+(cmd)\font\JY2/mc/m/n/5=upjisr-h at 4.8111pt
+(cmd)\font\JY2/mc/m/n/7=upjisr-h at 6.73553pt
+(cmd)\font\JY2/mc/m/n/12=upjisr-h at 11.54663pt
+(cmd)\font\JY2/gt/m/n/5=upjisg-h at 4.8111pt
+(cmd)\font\JY2/gt/m/n/7=upjisg-h at 6.73553pt
+(cmd)\font\JY2/gt/m/n/10=upjisg-h at 9.6222pt
+(cmd)\font\JY2/gt/m/n/12=upjisg-h at 11.54663pt
+(cmd)\font\JT2/mc/m/n/5=upjisr-v at 4.8111pt
+(cmd)\font\JT2/mc/m/n/7=upjisr-v at 6.73553pt
+(cmd)\font\JT2/mc/m/n/12=upjisr-v at 11.54663pt
+(cmd)\font\JT2/gt/m/n/5=upjisg-v at 4.8111pt
+(cmd)\font\JT2/gt/m/n/7=upjisg-v at 6.73553pt
+(cmd)\font\JT2/gt/m/n/10=upjisg-v at 9.6222pt
+(cmd)\font\JT2/gt/m/n/12=upjisg-v at 11.54663pt
+(cmd)534972 words of font info for 42 preloaded fonts
+(cmd)14 hyphenation exceptions
+(cmd)Hyphenation trie of length 6081 has 183 ops out of 35111
+(cmd)  2 for language 1
+(cmd)  181 for language 0
+(cmd)No pages of output.
+(cmd)Transcript written on uplatex.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/euptex/uplatex.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/euptex/uplatex.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 3
+(cmd)fmtutil [INFO]: not selected formats: 18
+(cmd)fmtutil [INFO]: total formats: 21
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --no-error-if-no-format --byengine euptex.
+
+[Sun May 17 19:03:02 2020] running fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --byfmt mptopdf
+[Sun May 17 19:03:02 2020] success, output:
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf files (in precedence order):
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-dist/web2c/fmtutil.cnf
+(cmd)fmtutil: fmtutil is using the following fmtutil.cnf file for writing changes:
+(cmd)fmtutil:   /home/gehao/.TinyTeX/texmf-config/web2c/fmtutil.cnf
+(cmd)fmtutil [INFO]: writing formats under /home/gehao/.TinyTeX/texmf-var/web2c
+(cmd)fmtutil [INFO]: --- remaking mptopdf with pdftex
+(cmd)fmtutil: running `pdftex -ini   -jobname=mptopdf -progname=context -translate-file=cp227.tcx mptopdf.tex' ...
+(cmd)This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (INITEX)
+(cmd) restricted \write18 enabled.
+(cmd) (/home/gehao/.TinyTeX/texmf-dist/web2c/cp227.tcx)
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/generic/context/mptopdf/mptopdf.tex
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/context/base/mkii/syst-tex.mkii
+(cmd)(/home/gehao/.TinyTeX/texmf-dist/tex/plain/base/plain.tex
+(cmd)Preloading the plain format: codes, registers, parameters, fonts,
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)more fonts,
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping scaled \font in plain
+(cmd)skipping scaled \font in plain
+(cmd)skipping scaled \font in plain
+(cmd)skipping \font in plain
+(cmd)skipping \skewchar in plain
+(cmd)skipping \skewchar in plain
+(cmd)skipping \skewchar in plain
+(cmd)skipping \skewchar in plain
+(cmd)skipping \skewchar in plain
+(cmd)skipping \skewchar in plain
+(cmd)skipping \textfont in plain
+(cmd)skipping \scriptfont in plain
+(cmd)skipping \scriptscriptfont in plain
+(cmd)skipping \textfont in plain
+(cmd)skipping \scriptfont in plain
+(cmd)skipping \scriptscriptfont in plain
+(cmd)skipping \textfont in plain
+(cmd)skipping \scriptfont in plain
+(cmd)skipping \scriptscriptfont in plain
+(cmd)skipping \textfont in plain
+(cmd)skipping \scriptfont in plain
+(cmd)skipping \scriptscriptfont in plain
+(cmd)skipping \textfont in plain
+(cmd)skipping \textfont in plain
+(cmd)skipping \textfont in plain
+(cmd)skipping \scriptfont in plain
+(cmd)skipping \scriptscriptfont in plain
+(cmd)skipping \textfont in plain
+(cmd)macros, math definitions,
+(cmd)skipping used \tenex in plain
+(cmd)output routines, hyphenation
+(cmd)skipping \input in plain
+(cmd)skipping \tenrm in plain
+(cmd))) (/home/gehao/.TinyTeX/texmf-dist/tex/context/base/mkii/supp-mis.mkii
+(cmd)loading : ConTeXt Support Macros / Miscellaneous (2004.10.26)
+(cmd)) (/home/gehao/.TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(cmd)loading : ConTeXt Support Macros / PDF
+(cmd)) (/home/gehao/.TinyTeX/texmf-dist/tex/context/base/mkii/supp-mpe.mkii
+(cmd)loading : ConTeXt Support Macros / MPS extensions
+(cmd)) )
+(cmd)Beginning to dump on file mptopdf.fmt
+(cmd) (preloaded format=mptopdf 2020.5.17)
+(cmd)3301 strings of total length 49053
+(cmd)13893 memory locations dumped; current usage is 116&13746
+(cmd)1666 multiletter control sequences
+(cmd)\font\nullfont=nullfont
+(cmd)0 words of font info for 0 preloaded fonts
+(cmd)0 hyphenation exceptions
+(cmd)Hyphenation trie of length 256 has 0 ops out of 35111
+(cmd)0 words of pdfTeX memory
+(cmd)0 indirect objects
+(cmd)No pages of output.
+(cmd)Transcript written on mptopdf.log.
+(cmd)fmtutil [INFO]: log file copied to: /home/gehao/.TinyTeX/texmf-var/web2c/pdftex/mptopdf.log
+(cmd)fmtutil [INFO]: /home/gehao/.TinyTeX/texmf-var/web2c/pdftex/mptopdf.fmt installed.
+(cmd)fmtutil [INFO]: successfully rebuilt formats: 1
+(cmd)fmtutil [INFO]: not selected formats: 20
+(cmd)fmtutil [INFO]: total formats: 21
+(cmd)fmtutil [INFO]: exiting with status 0
+--end of output of fmtutil-sys --no-error-if-no-engine=luajithbtex,luajittex,mfluajit --byfmt mptopdf.
+
+[Sun May 17 19:16:55 2020] install: silence
+[Sun May 17 19:16:55 2020] running mktexlsr
+[Sun May 17 19:16:55 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Sun May 17 21:25:23 2020] install: latexindent.x86_64-linux
+[Sun May 17 21:25:23 2020] install: latexindent
+[Sun May 17 21:25:23 2020] running mktexlsr
+[Sun May 17 21:25:23 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 20:15:21 2020] install: psnfss
+[Tue May 19 20:15:22 2020] install: symbol
+[Tue May 19 20:15:22 2020] running mktexlsr
+[Tue May 19 20:15:22 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 20:15:22 2020] running updmap-sys
+[Tue May 19 20:15:22 2020] success, output:
+(cmd)updmap will read the following updmap.cfg files (in precedence order):
+(cmd)  /home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg
+(cmd)updmap may write changes to the following updmap.cfg file:
+(cmd)  /home/gehao/.TinyTeX/texmf-config/web2c/updmap.cfg
+(cmd)dvips output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/dvips/updmap"
+(cmd)pdftex output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap"
+(cmd)dvipdfmx output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap"
+(cmd)updmap [WARNING]: generated map ptex-haranoaji-04.map (from ptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-ko-baekmuk.map (from uptex-ko-@koEmbed@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-tc-arphic.map (from uptex-tc-@tcEmbed@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-haranoaji-04.map (from uptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-sc-arphic.map (from uptex-sc-@scEmbed@.map) does not exist, not activating it!
+(cmd)
+(cmd)updmap is creating new map files
+(cmd)using the following configuration:
+(cmd)  LW35 font names                  : URWkb (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  prefer outlines                  : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  texhash enabled                  : true
+(cmd)  download standard fonts (dvips)  : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  download standard fonts (pdftex) : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaEmbed replacement string       : haranoaji (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaVariant replacement string     : -04 (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  scEmbed replacement string       : arphic (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  tcEmbed replacement string       : arphic (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  koEmbed replacement string       : baekmuk (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  create a mapfile for pxdvi       : false (default)
+(cmd)
+(cmd)Scanning for LW35 support files  [  3 files]
+(cmd)Scanning for MixedMap entries    [  7 files]
+(cmd)Scanning for KanjiMap entries    [  0 files]
+(cmd)Scanning for Map entries         [ 27 files]
+(cmd)
+(cmd)Generating output for dvipdfmx...
+(cmd)Generating output for ps2pk...
+(cmd)Generating output for dvips...
+(cmd)Generating output for pdftex...
+(cmd)
+(cmd)Files generated:
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/dvips/updmap:
+(cmd)       15790 2020-05-19 20:15:22 builtin35.map
+(cmd)       21263 2020-05-19 20:15:22 download35.map
+(cmd)      105628 2020-05-19 20:15:22 psfonts_pk.map
+(cmd)      111794 2020-05-19 20:15:22 psfonts_t1.map
+(cmd)      111789 2020-05-19 20:15:22 ps2pk.map
+(cmd)          14 2020-05-19 20:15:22 psfonts.map -> psfonts_t1.map
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap:
+(cmd)      111796 2020-05-19 20:15:22 pdftex_dl14.map
+(cmd)      110131 2020-05-19 20:15:22 pdftex_ndl14.map
+(cmd)          15 2020-05-19 20:15:22 pdftex.map -> pdftex_dl14.map
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap:
+(cmd)         313 2020-05-19 20:15:22 kanjix.map
+(cmd)
+(cmd)Transcript written on "/home/gehao/.TinyTeX/texmf-var/web2c/updmap.log".
+(cmd)updmap: Updating ls-R files.
+--end of output of updmap-sys.
+
+[Tue May 19 20:18:53 2020] install: subfigure
+[Tue May 19 20:18:53 2020] running mktexlsr
+[Tue May 19 20:18:53 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 20:23:06 2020] install: overpic
+[Tue May 19 20:23:06 2020] running mktexlsr
+[Tue May 19 20:23:06 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 20:23:46 2020] install: eepic
+[Tue May 19 20:23:46 2020] running mktexlsr
+[Tue May 19 20:23:47 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 20:24:34 2020] install: enumitem
+[Tue May 19 20:24:34 2020] running mktexlsr
+[Tue May 19 20:24:34 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 20:49:28 2020] install: helvetic
+[Tue May 19 20:49:28 2020] running mktexlsr
+[Tue May 19 20:49:28 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 20:49:28 2020] running updmap-sys
+[Tue May 19 20:49:28 2020] success, output:
+(cmd)updmap will read the following updmap.cfg files (in precedence order):
+(cmd)  /home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg
+(cmd)updmap may write changes to the following updmap.cfg file:
+(cmd)  /home/gehao/.TinyTeX/texmf-config/web2c/updmap.cfg
+(cmd)dvips output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/dvips/updmap"
+(cmd)pdftex output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap"
+(cmd)dvipdfmx output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap"
+(cmd)updmap [WARNING]: generated map uptex-sc-arphic.map (from uptex-sc-@scEmbed@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-ko-baekmuk.map (from uptex-ko-@koEmbed@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map ptex-haranoaji-04.map (from ptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-haranoaji-04.map (from uptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-tc-arphic.map (from uptex-tc-@tcEmbed@.map) does not exist, not activating it!
+(cmd)
+(cmd)updmap is creating new map files
+(cmd)using the following configuration:
+(cmd)  LW35 font names                  : URWkb (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  prefer outlines                  : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  texhash enabled                  : true
+(cmd)  download standard fonts (dvips)  : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  download standard fonts (pdftex) : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaEmbed replacement string       : haranoaji (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaVariant replacement string     : -04 (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  scEmbed replacement string       : arphic (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  tcEmbed replacement string       : arphic (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  koEmbed replacement string       : baekmuk (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  create a mapfile for pxdvi       : false (default)
+(cmd)
+(cmd)Scanning for LW35 support files  [  3 files]
+(cmd)Scanning for MixedMap entries    [  7 files]
+(cmd)Scanning for KanjiMap entries    [  0 files]
+(cmd)Scanning for Map entries         [ 28 files]
+(cmd)
+(cmd)Generating output for dvipdfmx...
+(cmd)Generating output for ps2pk...
+(cmd)Generating output for dvips...
+(cmd)Generating output for pdftex...
+(cmd)
+(cmd)Files generated:
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/dvips/updmap:
+(cmd)       15790 2020-05-19 20:49:28 builtin35.map
+(cmd)       21263 2020-05-19 20:49:28 download35.map
+(cmd)      105958 2020-05-19 20:49:28 psfonts_pk.map
+(cmd)      112124 2020-05-19 20:49:28 psfonts_t1.map
+(cmd)      112119 2020-05-19 20:49:28 ps2pk.map
+(cmd)          14 2020-05-19 20:49:28 psfonts.map -> psfonts_t1.map
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap:
+(cmd)      112126 2020-05-19 20:49:28 pdftex_dl14.map
+(cmd)      110461 2020-05-19 20:49:28 pdftex_ndl14.map
+(cmd)          15 2020-05-19 20:49:28 pdftex.map -> pdftex_dl14.map
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap:
+(cmd)         313 2020-05-19 20:49:28 kanjix.map
+(cmd)
+(cmd)Transcript written on "/home/gehao/.TinyTeX/texmf-var/web2c/updmap.log".
+(cmd)updmap: Updating ls-R files.
+--end of output of updmap-sys.
+
+[Tue May 19 20:50:34 2020] install: times
+[Tue May 19 20:50:34 2020] running mktexlsr
+[Tue May 19 20:50:34 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 20:50:34 2020] running updmap-sys
+[Tue May 19 20:50:35 2020] success, output:
+(cmd)updmap will read the following updmap.cfg files (in precedence order):
+(cmd)  /home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg
+(cmd)updmap may write changes to the following updmap.cfg file:
+(cmd)  /home/gehao/.TinyTeX/texmf-config/web2c/updmap.cfg
+(cmd)dvips output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/dvips/updmap"
+(cmd)pdftex output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap"
+(cmd)dvipdfmx output dir: "/home/gehao/.TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap"
+(cmd)updmap [WARNING]: generated map uptex-tc-arphic.map (from uptex-tc-@tcEmbed@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-ko-baekmuk.map (from uptex-ko-@koEmbed@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map ptex-haranoaji-04.map (from ptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-haranoaji-04.map (from uptex-@jaEmbed@@jaVariant@.map) does not exist, not activating it!
+(cmd)updmap [WARNING]: generated map uptex-sc-arphic.map (from uptex-sc-@scEmbed@.map) does not exist, not activating it!
+(cmd)
+(cmd)updmap is creating new map files
+(cmd)using the following configuration:
+(cmd)  LW35 font names                  : URWkb (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  prefer outlines                  : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  texhash enabled                  : true
+(cmd)  download standard fonts (dvips)  : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  download standard fonts (pdftex) : true (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaEmbed replacement string       : haranoaji (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  jaVariant replacement string     : -04 (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  scEmbed replacement string       : arphic (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  tcEmbed replacement string       : arphic (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  koEmbed replacement string       : baekmuk (/home/gehao/.TinyTeX/texmf-dist/web2c/updmap.cfg)
+(cmd)  create a mapfile for pxdvi       : false (default)
+(cmd)
+(cmd)Scanning for LW35 support files  [  3 files]
+(cmd)Scanning for MixedMap entries    [  7 files]
+(cmd)Scanning for KanjiMap entries    [  0 files]
+(cmd)Scanning for Map entries         [ 29 files]
+(cmd)
+(cmd)Generating output for dvipdfmx...
+(cmd)Generating output for ps2pk...
+(cmd)Generating output for dvips...
+(cmd)Generating output for pdftex...
+(cmd)
+(cmd)Files generated:
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/dvips/updmap:
+(cmd)       15790 2020-05-19 20:50:34 builtin35.map
+(cmd)       21263 2020-05-19 20:50:34 download35.map
+(cmd)      106492 2020-05-19 20:50:34 psfonts_pk.map
+(cmd)      112658 2020-05-19 20:50:34 psfonts_t1.map
+(cmd)      112653 2020-05-19 20:50:34 ps2pk.map
+(cmd)          14 2020-05-19 20:50:34 psfonts.map -> psfonts_t1.map
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/pdftex/updmap:
+(cmd)      112660 2020-05-19 20:50:34 pdftex_dl14.map
+(cmd)      110995 2020-05-19 20:50:34 pdftex_ndl14.map
+(cmd)          15 2020-05-19 20:50:34 pdftex.map -> pdftex_dl14.map
+(cmd)  /home/gehao/.TinyTeX/texmf-var/fonts/map/dvipdfmx/updmap:
+(cmd)         313 2020-05-19 20:50:34 kanjix.map
+(cmd)
+(cmd)Transcript written on "/home/gehao/.TinyTeX/texmf-var/web2c/updmap.log".
+(cmd)updmap: Updating ls-R files.
+--end of output of updmap-sys.
+
+[Tue May 19 21:48:01 2020] install: biblatex
+[Tue May 19 21:48:01 2020] install: logreq
+[Tue May 19 21:48:01 2020] running mktexlsr
+[Tue May 19 21:48:01 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+
+[Tue May 19 23:20:08 2020] install: bibtex.x86_64-linux
+[Tue May 19 23:20:09 2020] install: bibtex
+[Tue May 19 23:20:09 2020] running mktexlsr
+[Tue May 19 23:20:09 2020] success, output:
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-config/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-dist/ls-R... 
+(cmd)mktexlsr: Updating /home/gehao/.TinyTeX/texmf-var/ls-R... 
+(cmd)mktexlsr: Done.
+--end of output of mktexlsr.
+

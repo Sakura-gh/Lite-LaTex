@@ -1,0 +1,37 @@
+name xecjk
+category Package
+revision 54961
+shortdesc Support for CJK documents in XeLaTeX
+longdesc A LaTeX package for typesetting CJK documents in the way users
+longdesc have become used to, in the CJK package. The package requires a
+longdesc current version of xtemplate (and hence of the current LaTeX3
+longdesc development environment).
+containersize 219632
+containerchecksum 07de297fbdbc203de2c0c66e3ca1064e02105128b24c622aaafd869eeca4d04139ddce705e6c01ef58959dc228cb35be126785c4ebe8c2cbfb079eaf75f1a186
+doccontainersize 1536496
+doccontainerchecksum be525fb33fc082969217a8150cf553249188de84c37e6cfb63a4094ea4b9af1fd50cf9c0e7214e8c3467372c724bca27c6bf1229408eca4ee45e819c92da072f
+srccontainersize 88484
+srccontainerchecksum 38b4cc6aa94a837213d6475f4f411951cca472dfa9a63d69146a56c52aef35844eff5f8c2a59e32169db6a99827fd0fcddae3c4efa649de92f8a3aab7b13545b
+runfiles size=178
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/full-stop.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/fullwidth-stop.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/fullwidth-stop.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-simp.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-simp.tec
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-trad.map
+ texmf-dist/fonts/misc/xetex/fontmapping/xecjk/han-trad.tec
+ texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+ texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+ texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+ texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+ texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
+ texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
+catalogue-contact-bugs https://github.com/CTeX-org/ctex-kit/issues
+catalogue-contact-home http://www.ctex.org/
+catalogue-contact-repository https://github.com/CTeX-org/ctex-kit
+catalogue-contact-support https://github.com/CTeX-org/ctex-kit/issues
+catalogue-ctan /macros/xetex/latex/xecjk
+catalogue-license lppl1.3c
+catalogue-topics chinese japanese korean xetex expl3
+catalogue-version 3.8.3
